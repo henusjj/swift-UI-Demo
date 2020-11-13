@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452D3825255B8C5900D4F6A4 /* collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D3824255B8C5900D4F6A4 /* collectionCell.swift */; };
+		452E5D1B255BC7F90056E12D /* CollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E5D1A255BC7F90056E12D /* CollectionHeader.swift */; };
+		452E5D20255CC8EA0056E12D /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E5D1F255CC8EA0056E12D /* otherViewController.swift */; };
+		452E5D24255CCA480056E12D /* UIAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E5D23255CCA480056E12D /* UIAlertExtension.swift */; };
+		4546095A2558DE2B0021B14A /* TextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454609592558DE2B0021B14A /* TextVC.swift */; };
+		4546095C2558E4020021B14A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546095B2558E4020021B14A /* Common.swift */; };
+		45467947255A8F8E00C02E20 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45467946255A8F8E00C02E20 /* TableViewCell.swift */; };
+		45467949255A98F200C02E20 /* scrollerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45467948255A98F200C02E20 /* scrollerVC.swift */; };
+		4546794C255A9A4700C02E20 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546794B255A9A4700C02E20 /* oneViewController.swift */; };
+		4546794E255A9A5000C02E20 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546794D255A9A5000C02E20 /* twoViewController.swift */; };
+		45467950255A9B1F00C02E20 /* collectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546794F255A9B1F00C02E20 /* collectionVC.swift */; };
+		45467953255A9CC800C02E20 /* alterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45467952255A9CC800C02E20 /* alterVC.swift */; };
+		459A1E72255935690034DBBF /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A1E71255935690034DBBF /* FeedBackView.swift */; };
+		459A1E742559388C0034DBBF /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A1E732559388C0034DBBF /* button.swift */; };
+		45A403D9255A378F00EC4B7F /* ImagetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A403D8255A378F00EC4B7F /* ImagetVC.swift */; };
+		45EB1BA02553F5E2006FDCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1B9F2553F5E2006FDCD7 /* AppDelegate.swift */; };
+		45EB1BA42553F5E2006FDCD7 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BA32553F5E2006FDCD7 /* MyNavigationController.swift */; };
+		45EB1BA72553F5E2006FDCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EB1BA52553F5E2006FDCD7 /* Main.storyboard */; };
+		45EB1BA92553F5E3006FDCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EB1BA82553F5E3006FDCD7 /* Assets.xcassets */; };
+		45EB1BAC2553F5E3006FDCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EB1BAA2553F5E3006FDCD7 /* LaunchScreen.storyboard */; };
+		45EB1BB72553F5E3006FDCD7 /* WanAndroid_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BB62553F5E3006FDCD7 /* WanAndroid_IOSTests.swift */; };
+		45EB1BC22553F5E3006FDCD7 /* WanAndroid_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BC12553F5E3006FDCD7 /* WanAndroid_IOSUITests.swift */; };
+		45EB1BD02554FADE006FDCD7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BCF2554FADE006FDCD7 /* MainViewController.swift */; };
+		45EB1BD325553829006FDCD7 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BD225553829006FDCD7 /* homeVC.swift */; };
+		45EB1BD525553AE2006FDCD7 /* HotTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BD425553AE2006FDCD7 /* HotTabVC.swift */; };
+		45EB1BD725553AF0006FDCD7 /* ProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BD625553AF0006FDCD7 /* ProjectVC.swift */; };
+		45EB1BD925553B02006FDCD7 /* MyTabViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB1BD825553B02006FDCD7 /* MyTabViewVC.swift */; };
+		45F07B8A255A77B000D775FB /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F07B89255A77B000D775FB /* TableVC.swift */; };
+		5C69BCF86B520791BB8BF016 /* Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B68AA4969D97B1B0E1141 /* Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework */; };
+		90042210D085D8342260B8B0 /* Pods_WanAndroid_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D9D41043C775E441744A2B /* Pods_WanAndroid_IOSTests.framework */; };
+		9C364DF7D3450E94E2FD266B /* Pods_WanAndroid_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443590D96704C93CFCE21B64 /* Pods_WanAndroid_IOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45EB1BB32553F5E3006FDCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EB1B942553F5E2006FDCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EB1B9B2553F5E2006FDCD7;
+			remoteInfo = WanAndroid_IOS;
+		};
+		45EB1BBE2553F5E3006FDCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EB1B942553F5E2006FDCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EB1B9B2553F5E2006FDCD7;
+			remoteInfo = WanAndroid_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D0AC2602AFAF503A54CC9A /* Pods-WanAndroid_IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOSTests.release.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOSTests/Pods-WanAndroid_IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		207B740F8BF6833390FD4E37 /* Pods-WanAndroid_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOS.debug.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOS/Pods-WanAndroid_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		443590D96704C93CFCE21B64 /* Pods_WanAndroid_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanAndroid_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		452D3824255B8C5900D4F6A4 /* collectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionCell.swift; sourceTree = "<group>"; };
+		452E5D1A255BC7F90056E12D /* CollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeader.swift; sourceTree = "<group>"; };
+		452E5D1F255CC8EA0056E12D /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
+		452E5D23255CCA480056E12D /* UIAlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertExtension.swift; sourceTree = "<group>"; };
+		454609592558DE2B0021B14A /* TextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextVC.swift; sourceTree = "<group>"; };
+		4546095B2558E4020021B14A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45467946255A8F8E00C02E20 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		45467948255A98F200C02E20 /* scrollerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollerVC.swift; sourceTree = "<group>"; };
+		4546794B255A9A4700C02E20 /* oneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
+		4546794D255A9A5000C02E20 /* twoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
+		4546794F255A9B1F00C02E20 /* collectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionVC.swift; sourceTree = "<group>"; };
+		45467952255A9CC800C02E20 /* alterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alterVC.swift; sourceTree = "<group>"; };
+		459A1E71255935690034DBBF /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
+		459A1E732559388C0034DBBF /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		45A403D8255A378F00EC4B7F /* ImagetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagetVC.swift; sourceTree = "<group>"; };
+		45EB1B9C2553F5E2006FDCD7 /* WanAndroid_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroid_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EB1B9F2553F5E2006FDCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45EB1BA32553F5E2006FDCD7 /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		45EB1BA62553F5E2006FDCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45EB1BA82553F5E3006FDCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45EB1BAB2553F5E3006FDCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45EB1BAD2553F5E3006FDCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EB1BB22553F5E3006FDCD7 /* WanAndroid_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EB1BB62553F5E3006FDCD7 /* WanAndroid_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndroid_IOSTests.swift; sourceTree = "<group>"; };
+		45EB1BB82553F5E3006FDCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EB1BBD2553F5E3006FDCD7 /* WanAndroid_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EB1BC12553F5E3006FDCD7 /* WanAndroid_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndroid_IOSUITests.swift; sourceTree = "<group>"; };
+		45EB1BC32553F5E3006FDCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EB1BCF2554FADE006FDCD7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45EB1BD225553829006FDCD7 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		45EB1BD425553AE2006FDCD7 /* HotTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTabVC.swift; sourceTree = "<group>"; };
+		45EB1BD625553AF0006FDCD7 /* ProjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectVC.swift; sourceTree = "<group>"; };
+		45EB1BD825553B02006FDCD7 /* MyTabViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabViewVC.swift; sourceTree = "<group>"; };
+		45F07B89255A77B000D775FB /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		A42480DBE684750CAADCE0F2 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOS-WanAndroid_IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOS-WanAndroid_IOSUITests/Pods-WanAndroid_IOS-WanAndroid_IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8B14D423A1AB26D56766590 /* Pods-WanAndroid_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOS.release.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOS/Pods-WanAndroid_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		C57F21C923B4390B3529DE44 /* Pods-WanAndroid_IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOSTests/Pods-WanAndroid_IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D9D41043C775E441744A2B /* Pods_WanAndroid_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanAndroid_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A008167CFC1BFF0FA0EB20 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid_IOS-WanAndroid_IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-WanAndroid_IOS-WanAndroid_IOSUITests/Pods-WanAndroid_IOS-WanAndroid_IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E42B68AA4969D97B1B0E1141 /* Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45EB1B992553F5E2006FDCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C364DF7D3450E94E2FD266B /* Pods_WanAndroid_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BAF2553F5E3006FDCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90042210D085D8342260B8B0 /* Pods_WanAndroid_IOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BBA2553F5E3006FDCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C69BCF86B520791BB8BF016 /* Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452D3826255BBB6300D4F6A4 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				452E5D1E255CC8D20056E12D /* other */,
+				45467951255A9CAF00C02E20 /* alterT */,
+				4546794A255A98F600C02E20 /* scrollerT */,
+				45F07B8B255A77BD00D775FB /* ListT */,
+				45A403D7255A362C00EC4B7F /* imageT */,
+				459A1E75255938960034DBBF /* ButtonT */,
+				454609582558DCE20021B14A /* LableText */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		452E5D1E255CC8D20056E12D /* other */ = {
+			isa = PBXGroup;
+			children = (
+				452E5D1F255CC8EA0056E12D /* otherViewController.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		452E5D28255E15080056E12D /* hot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hot;
+			sourceTree = "<group>";
+		};
+		454609582558DCE20021B14A /* LableText */ = {
+			isa = PBXGroup;
+			children = (
+				454609592558DE2B0021B14A /* TextVC.swift */,
+				459A1E71255935690034DBBF /* FeedBackView.swift */,
+			);
+			path = LableText;
+			sourceTree = "<group>";
+		};
+		4546794A255A98F600C02E20 /* scrollerT */ = {
+			isa = PBXGroup;
+			children = (
+				45467948255A98F200C02E20 /* scrollerVC.swift */,
+				4546794B255A9A4700C02E20 /* oneViewController.swift */,
+				4546794D255A9A5000C02E20 /* twoViewController.swift */,
+			);
+			path = scrollerT;
+			sourceTree = "<group>";
+		};
+		45467951255A9CAF00C02E20 /* alterT */ = {
+			isa = PBXGroup;
+			children = (
+				45467952255A9CC800C02E20 /* alterVC.swift */,
+				452E5D23255CCA480056E12D /* UIAlertExtension.swift */,
+			);
+			path = alterT;
+			sourceTree = "<group>";
+		};
+		459A1E75255938960034DBBF /* ButtonT */ = {
+			isa = PBXGroup;
+			children = (
+				459A1E732559388C0034DBBF /* button.swift */,
+			);
+			path = ButtonT;
+			sourceTree = "<group>";
+		};
+		45A403D7255A362C00EC4B7F /* imageT */ = {
+			isa = PBXGroup;
+			children = (
+				45A403D8255A378F00EC4B7F /* ImagetVC.swift */,
+			);
+			path = imageT;
+			sourceTree = "<group>";
+		};
+		45EB1B932553F5E2006FDCD7 = {
+			isa = PBXGroup;
+			children = (
+				45EB1B9E2553F5E2006FDCD7 /* WanAndroid_IOS */,
+				45EB1BB52553F5E3006FDCD7 /* WanAndroid_IOSTests */,
+				45EB1BC02553F5E3006FDCD7 /* WanAndroid_IOSUITests */,
+				45EB1B9D2553F5E2006FDCD7 /* Products */,
+				CD029F58F240F75CCB5A2685 /* Pods */,
+				9C0452FDDD95F6960E72F57B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45EB1B9D2553F5E2006FDCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45EB1B9C2553F5E2006FDCD7 /* WanAndroid_IOS.app */,
+				45EB1BB22553F5E3006FDCD7 /* WanAndroid_IOSTests.xctest */,
+				45EB1BBD2553F5E3006FDCD7 /* WanAndroid_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45EB1B9E2553F5E2006FDCD7 /* WanAndroid_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				452E5D28255E15080056E12D /* hot */,
+				452D3826255BBB6300D4F6A4 /* home */,
+				45EB1BD1255537F9006FDCD7 /* tabVC */,
+				45EB1B9F2553F5E2006FDCD7 /* AppDelegate.swift */,
+				45EB1BCF2554FADE006FDCD7 /* MainViewController.swift */,
+				45EB1BA32553F5E2006FDCD7 /* MyNavigationController.swift */,
+				45EB1BA52553F5E2006FDCD7 /* Main.storyboard */,
+				45EB1BA82553F5E3006FDCD7 /* Assets.xcassets */,
+				45EB1BAA2553F5E3006FDCD7 /* LaunchScreen.storyboard */,
+				4546095B2558E4020021B14A /* Common.swift */,
+				45EB1BAD2553F5E3006FDCD7 /* Info.plist */,
+			);
+			path = WanAndroid_IOS;
+			sourceTree = "<group>";
+		};
+		45EB1BB52553F5E3006FDCD7 /* WanAndroid_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				45EB1BB62553F5E3006FDCD7 /* WanAndroid_IOSTests.swift */,
+				45EB1BB82553F5E3006FDCD7 /* Info.plist */,
+			);
+			path = WanAndroid_IOSTests;
+			sourceTree = "<group>";
+		};
+		45EB1BC02553F5E3006FDCD7 /* WanAndroid_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45EB1BC12553F5E3006FDCD7 /* WanAndroid_IOSUITests.swift */,
+				45EB1BC32553F5E3006FDCD7 /* Info.plist */,
+			);
+			path = WanAndroid_IOSUITests;
+			sourceTree = "<group>";
+		};
+		45EB1BD1255537F9006FDCD7 /* tabVC */ = {
+			isa = PBXGroup;
+			children = (
+				45EB1BD225553829006FDCD7 /* homeVC.swift */,
+				45EB1BD425553AE2006FDCD7 /* HotTabVC.swift */,
+				45EB1BD625553AF0006FDCD7 /* ProjectVC.swift */,
+				45EB1BD825553B02006FDCD7 /* MyTabViewVC.swift */,
+			);
+			path = tabVC;
+			sourceTree = "<group>";
+		};
+		45F07B8B255A77BD00D775FB /* ListT */ = {
+			isa = PBXGroup;
+			children = (
+				45F07B89255A77B000D775FB /* TableVC.swift */,
+				45467946255A8F8E00C02E20 /* TableViewCell.swift */,
+				4546794F255A9B1F00C02E20 /* collectionVC.swift */,
+				452D3824255B8C5900D4F6A4 /* collectionCell.swift */,
+				452E5D1A255BC7F90056E12D /* CollectionHeader.swift */,
+			);
+			path = ListT;
+			sourceTree = "<group>";
+		};
+		9C0452FDDD95F6960E72F57B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				443590D96704C93CFCE21B64 /* Pods_WanAndroid_IOS.framework */,
+				E42B68AA4969D97B1B0E1141 /* Pods_WanAndroid_IOS_WanAndroid_IOSUITests.framework */,
+				D6D9D41043C775E441744A2B /* Pods_WanAndroid_IOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD029F58F240F75CCB5A2685 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				207B740F8BF6833390FD4E37 /* Pods-WanAndroid_IOS.debug.xcconfig */,
+				A8B14D423A1AB26D56766590 /* Pods-WanAndroid_IOS.release.xcconfig */,
+				E2A008167CFC1BFF0FA0EB20 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.debug.xcconfig */,
+				A42480DBE684750CAADCE0F2 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.release.xcconfig */,
+				C57F21C923B4390B3529DE44 /* Pods-WanAndroid_IOSTests.debug.xcconfig */,
+				08D0AC2602AFAF503A54CC9A /* Pods-WanAndroid_IOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45EB1B9B2553F5E2006FDCD7 /* WanAndroid_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EB1BC62553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOS" */;
+			buildPhases = (
+				EF3FDF6F26913BFBFA505292 /* [CP] Check Pods Manifest.lock */,
+				45EB1B982553F5E2006FDCD7 /* Sources */,
+				45EB1B992553F5E2006FDCD7 /* Frameworks */,
+				45EB1B9A2553F5E2006FDCD7 /* Resources */,
+				F33D196549966100D8C41A6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanAndroid_IOS;
+			productName = WanAndroid_IOS;
+			productReference = 45EB1B9C2553F5E2006FDCD7 /* WanAndroid_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45EB1BB12553F5E3006FDCD7 /* WanAndroid_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EB1BC92553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSTests" */;
+			buildPhases = (
+				E15B7A0597913544F23E5BA7 /* [CP] Check Pods Manifest.lock */,
+				45EB1BAE2553F5E3006FDCD7 /* Sources */,
+				45EB1BAF2553F5E3006FDCD7 /* Frameworks */,
+				45EB1BB02553F5E3006FDCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EB1BB42553F5E3006FDCD7 /* PBXTargetDependency */,
+			);
+			name = WanAndroid_IOSTests;
+			productName = WanAndroid_IOSTests;
+			productReference = 45EB1BB22553F5E3006FDCD7 /* WanAndroid_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45EB1BBC2553F5E3006FDCD7 /* WanAndroid_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EB1BCC2553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSUITests" */;
+			buildPhases = (
+				8EA95B2EA84DAFD83F811E6C /* [CP] Check Pods Manifest.lock */,
+				45EB1BB92553F5E3006FDCD7 /* Sources */,
+				45EB1BBA2553F5E3006FDCD7 /* Frameworks */,
+				45EB1BBB2553F5E3006FDCD7 /* Resources */,
+				5B7B1E1A78E282CD67ED29F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EB1BBF2553F5E3006FDCD7 /* PBXTargetDependency */,
+			);
+			name = WanAndroid_IOSUITests;
+			productName = WanAndroid_IOSUITests;
+			productReference = 45EB1BBD2553F5E3006FDCD7 /* WanAndroid_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45EB1B942553F5E2006FDCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = henusjj;
+				TargetAttributes = {
+					45EB1B9B2553F5E2006FDCD7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					45EB1BB12553F5E3006FDCD7 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45EB1B9B2553F5E2006FDCD7;
+					};
+					45EB1BBC2553F5E3006FDCD7 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45EB1B9B2553F5E2006FDCD7;
+					};
+				};
+			};
+			buildConfigurationList = 45EB1B972553F5E2006FDCD7 /* Build configuration list for PBXProject "WanAndroid_IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45EB1B932553F5E2006FDCD7;
+			productRefGroup = 45EB1B9D2553F5E2006FDCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45EB1B9B2553F5E2006FDCD7 /* WanAndroid_IOS */,
+				45EB1BB12553F5E3006FDCD7 /* WanAndroid_IOSTests */,
+				45EB1BBC2553F5E3006FDCD7 /* WanAndroid_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45EB1B9A2553F5E2006FDCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB1BAC2553F5E3006FDCD7 /* LaunchScreen.storyboard in Resources */,
+				45EB1BA92553F5E3006FDCD7 /* Assets.xcassets in Resources */,
+				45EB1BA72553F5E2006FDCD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BB02553F5E3006FDCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BBB2553F5E3006FDCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B7B1E1A78E282CD67ED29F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS-WanAndroid_IOSUITests/Pods-WanAndroid_IOS-WanAndroid_IOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS-WanAndroid_IOSUITests/Pods-WanAndroid_IOS-WanAndroid_IOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS-WanAndroid_IOSUITests/Pods-WanAndroid_IOS-WanAndroid_IOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA95B2EA84DAFD83F811E6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndroid_IOS-WanAndroid_IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15B7A0597913544F23E5BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndroid_IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3FDF6F26913BFBFA505292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndroid_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33D196549966100D8C41A6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS/Pods-WanAndroid_IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS/Pods-WanAndroid_IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WanAndroid_IOS/Pods-WanAndroid_IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EB1B982553F5E2006FDCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB1BD02554FADE006FDCD7 /* MainViewController.swift in Sources */,
+				45EB1BD925553B02006FDCD7 /* MyTabViewVC.swift in Sources */,
+				45467950255A9B1F00C02E20 /* collectionVC.swift in Sources */,
+				452E5D20255CC8EA0056E12D /* otherViewController.swift in Sources */,
+				452D3825255B8C5900D4F6A4 /* collectionCell.swift in Sources */,
+				45467949255A98F200C02E20 /* scrollerVC.swift in Sources */,
+				4546794C255A9A4700C02E20 /* oneViewController.swift in Sources */,
+				45EB1BD325553829006FDCD7 /* homeVC.swift in Sources */,
+				45EB1BA42553F5E2006FDCD7 /* MyNavigationController.swift in Sources */,
+				4546095C2558E4020021B14A /* Common.swift in Sources */,
+				4546794E255A9A5000C02E20 /* twoViewController.swift in Sources */,
+				45467953255A9CC800C02E20 /* alterVC.swift in Sources */,
+				45467947255A8F8E00C02E20 /* TableViewCell.swift in Sources */,
+				452E5D1B255BC7F90056E12D /* CollectionHeader.swift in Sources */,
+				45A403D9255A378F00EC4B7F /* ImagetVC.swift in Sources */,
+				45EB1BA02553F5E2006FDCD7 /* AppDelegate.swift in Sources */,
+				45F07B8A255A77B000D775FB /* TableVC.swift in Sources */,
+				4546095A2558DE2B0021B14A /* TextVC.swift in Sources */,
+				459A1E72255935690034DBBF /* FeedBackView.swift in Sources */,
+				45EB1BD725553AF0006FDCD7 /* ProjectVC.swift in Sources */,
+				459A1E742559388C0034DBBF /* button.swift in Sources */,
+				45EB1BD525553AE2006FDCD7 /* HotTabVC.swift in Sources */,
+				452E5D24255CCA480056E12D /* UIAlertExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BAE2553F5E3006FDCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB1BB72553F5E3006FDCD7 /* WanAndroid_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EB1BB92553F5E3006FDCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB1BC22553F5E3006FDCD7 /* WanAndroid_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45EB1BB42553F5E3006FDCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EB1B9B2553F5E2006FDCD7 /* WanAndroid_IOS */;
+			targetProxy = 45EB1BB32553F5E3006FDCD7 /* PBXContainerItemProxy */;
+		};
+		45EB1BBF2553F5E3006FDCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EB1B9B2553F5E2006FDCD7 /* WanAndroid_IOS */;
+			targetProxy = 45EB1BBE2553F5E3006FDCD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45EB1BA52553F5E2006FDCD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EB1BA62553F5E2006FDCD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45EB1BAA2553F5E3006FDCD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EB1BAB2553F5E3006FDCD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45EB1BC42553F5E3006FDCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45EB1BC52553F5E3006FDCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45EB1BC72553F5E3006FDCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207B740F8BF6833390FD4E37 /* Pods-WanAndroid_IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45EB1BC82553F5E3006FDCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B14D423A1AB26D56766590 /* Pods-WanAndroid_IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45EB1BCA2553F5E3006FDCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57F21C923B4390B3529DE44 /* Pods-WanAndroid_IOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_IOS.app/WanAndroid_IOS";
+			};
+			name = Debug;
+		};
+		45EB1BCB2553F5E3006FDCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D0AC2602AFAF503A54CC9A /* Pods-WanAndroid_IOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_IOS.app/WanAndroid_IOS";
+			};
+			name = Release;
+		};
+		45EB1BCD2553F5E3006FDCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A008167CFC1BFF0FA0EB20 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndroid_IOS;
+			};
+			name = Debug;
+		};
+		45EB1BCE2553F5E3006FDCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42480DBE684750CAADCE0F2 /* Pods-WanAndroid_IOS-WanAndroid_IOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQWJXXL6GH;
+				INFOPLIST_FILE = WanAndroid_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "henusjj.WanAndroid-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndroid_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45EB1B972553F5E2006FDCD7 /* Build configuration list for PBXProject "WanAndroid_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EB1BC42553F5E3006FDCD7 /* Debug */,
+				45EB1BC52553F5E3006FDCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EB1BC62553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EB1BC72553F5E3006FDCD7 /* Debug */,
+				45EB1BC82553F5E3006FDCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EB1BC92553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EB1BCA2553F5E3006FDCD7 /* Debug */,
+				45EB1BCB2553F5E3006FDCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EB1BCC2553F5E3006FDCD7 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EB1BCD2553F5E3006FDCD7 /* Debug */,
+				45EB1BCE2553F5E3006FDCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45EB1B942553F5E2006FDCD7 /* Project object */;
+}

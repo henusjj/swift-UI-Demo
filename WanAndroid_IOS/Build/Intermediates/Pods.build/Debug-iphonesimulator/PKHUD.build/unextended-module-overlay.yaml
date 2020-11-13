@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Products/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,880 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_class_rw_t"
+- "_class_ro_t"
+- "MetadataType"
+- "Metadata"
+- "_Metadata"
+- "is64BitPlatform"
+- "MetadataKindIsNonHeap"
+- "MetadataKindIsRuntimePrivate"
+- "MetadataKindIsNonType"
+provides-nominal:
+- "9HandyJSON11_class_rw_tV"
+- "9HandyJSON11_class_ro_tV"
+- "9HandyJSON12MetadataTypeP"
+- "9HandyJSON8MetadataV"
+- "9HandyJSON9_MetadataV"
+- "9HandyJSON8MetadataV4KindO"
+- "9HandyJSON8MetadataV5ClassV"
+- "9HandyJSON9_MetadataV6_ClassV"
+- "9HandyJSON8MetadataV6StructV"
+- "9HandyJSON9_MetadataV7_StructV"
+- "9HandyJSON8MetadataV16ObjcClassWrapperV"
+- "9HandyJSON9_MetadataV17_ObjcClassWrapperV"
+provides-member:
+- ["9HandyJSON11_class_rw_tV", ""]
+- ["9HandyJSON11_class_ro_tV", ""]
+- ["9HandyJSON12MetadataTypeP", ""]
+- ["9HandyJSON8MetadataV", ""]
+- ["9HandyJSON9_MetadataV", ""]
+- ["9HandyJSON8MetadataV4KindO", ""]
+- ["9HandyJSON8MetadataV5ClassV", ""]
+- ["9HandyJSON9_MetadataV6_ClassV", ""]
+- ["9HandyJSON8MetadataV6StructV", ""]
+- ["9HandyJSON9_MetadataV7_StructV", ""]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", ""]
+- ["9HandyJSON9_MetadataV17_ObjcClassWrapperV", ""]
+- ["9HandyJSON12MetadataTypeP", "kind"]
+- ["9HandyJSON12MetadataTypeP", "init"]
+- ["9HandyJSON8MetadataV", "kind"]
+- ["9HandyJSON8MetadataV", "Kind"]
+- ["9HandyJSON8MetadataV", "Class"]
+- ["9HandyJSON9_MetadataV", "_Class"]
+- ["9HandyJSON8MetadataV", "Struct"]
+- ["9HandyJSON9_MetadataV", "_Struct"]
+- ["9HandyJSON8MetadataV", "ObjcClassWrapper"]
+- ["9HandyJSON9_MetadataV", "_ObjcClassWrapper"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "ContextDescriptorType"
+- "FloatLiteralType"
+- !private "HandyJSON"
+- !private "HandyJSONEnum"
+- "Int"
+- "Int32"
+- !private "Int64"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- "Metadata"
+- "MetadataKindIsNonHeap"
+- "MetadataKindIsNonType"
+- "MetadataKindIsRuntimePrivate"
+- "MetadataType"
+- "PointerType"
+- "Property"
+- !private "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- !private "UInt64"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- !private "^"
+- "_Metadata"
+- "_class_ro_t"
+- "_class_rw_t"
+- !private "_getTypeByMangledNameInContext"
+- !private "getMangledTypeNameSize"
+- "is64BitPlatform"
+- !private "type"
+- !private "unsafeBitCast"
+- !private "|"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "fieldName"]
+- !private ["s10ArraySliceV", "mangledTypeName"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "fieldName"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "mangledTypeName"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "subscript"]
+- ["9HandyJSON8MetadataV5ClassV", "=="]
+- ["9HandyJSON8MetadataV5ClassV", "Bool"]
+- ["9HandyJSON8MetadataV5ClassV", "Class"]
+- !private ["9HandyJSON8MetadataV5ClassV", "HandyJSON"]
+- !private ["9HandyJSON8MetadataV5ClassV", "HandyJSONEnum"]
+- ["9HandyJSON8MetadataV5ClassV", "Int"]
+- ["9HandyJSON8MetadataV5ClassV", "Int32"]
+- ["9HandyJSON8MetadataV5ClassV", "Kind"]
+- !private ["9HandyJSON8MetadataV5ClassV", "MemoryLayout"]
+- !private ["9HandyJSON8MetadataV5ClassV", "Metadata"]
+- ["9HandyJSON8MetadataV5ClassV", "Pointee"]
+- ["9HandyJSON8MetadataV5ClassV", "Property"]
+- !private ["9HandyJSON8MetadataV5ClassV", "String"]
+- ["9HandyJSON8MetadataV5ClassV", "UnsafePointer"]
+- ["9HandyJSON8MetadataV5ClassV", "UnsafeRawPointer"]
+- ["9HandyJSON8MetadataV5ClassV", "_Default_Pointee"]
+- ["9HandyJSON8MetadataV5ClassV", "_Metadata"]
+- !private ["9HandyJSON8MetadataV5ClassV", "_getTypeByMangledNameInContext"]
+- ["9HandyJSON8MetadataV5ClassV", "_propertyDescriptionsAndStartPoint"]
+- ["9HandyJSON8MetadataV5ClassV", "contextDescriptorOffsetLocation"]
+- !private ["9HandyJSON8MetadataV5ClassV", "contextDescriptorPointer"]
+- ["9HandyJSON8MetadataV5ClassV", "deinit"]
+- !private ["9HandyJSON8MetadataV5ClassV", "fieldOffsets"]
+- ["9HandyJSON8MetadataV5ClassV", "genericArgumentVector"]
+- !private ["9HandyJSON8MetadataV5ClassV", "getMangledTypeNameSize"]
+- ["9HandyJSON8MetadataV5ClassV", "init"]
+- !private ["9HandyJSON8MetadataV5ClassV", "is64BitPlatform"]
+- ["9HandyJSON8MetadataV5ClassV", "isSwiftClass"]
+- ["9HandyJSON8MetadataV5ClassV", "kind"]
+- !private ["9HandyJSON8MetadataV5ClassV", "numberOfFields"]
+- ["9HandyJSON8MetadataV5ClassV", "pointer"]
+- ["9HandyJSON8MetadataV5ClassV", "propertyDescriptions"]
+- !private ["9HandyJSON8MetadataV5ClassV", "reflectionFieldDescriptor"]
+- ["9HandyJSON8MetadataV5ClassV", "superclass"]
+- !private ["9HandyJSON8MetadataV5ClassV", "unsafeBitCast"]
+- ["9HandyJSON8MetadataV5ClassV", "vTableSize"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "fieldName"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "mangledTypeName"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "advanced"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- ["9HandyJSON21ContextDescriptorTypeP", "=="]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "Int"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "MemoryLayout"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "Metadata"]
+- ["9HandyJSON21ContextDescriptorTypeP", "Pointee"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "Property"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "String"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "UnsafePointer"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "UnsafeRawPointer"]
+- ["9HandyJSON21ContextDescriptorTypeP", ""]
+- ["9HandyJSON21ContextDescriptorTypeP", "_Default_Pointee"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "_getTypeByMangledNameInContext"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "_propertyDescriptionsAndStartPoint"]
+- ["9HandyJSON21ContextDescriptorTypeP", "contextDescriptorOffsetLocation"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "contextDescriptorPointer"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "fieldOffsets"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "genericArgumentOffsetLocation"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "genericArgumentVector"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "getMangledTypeNameSize"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "init"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "is64BitPlatform"]
+- ["9HandyJSON21ContextDescriptorTypeP", "kind"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "numberOfFields"]
+- ["9HandyJSON21ContextDescriptorTypeP", "pointer"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "reflectionFieldDescriptor"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "superclass"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "unsafeBitCast"]
+- !private ["9HandyJSON21ContextDescriptorTypeP", "vTableSize"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "fieldName"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "mangledTypeName"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "class"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "fieldName"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mangledTypeName"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "objCClassWrapper"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "struct"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "class"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "fieldName"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "mangledTypeName"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "objCClassWrapper"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s17CustomReflectableP", "struct"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "fieldName"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mangledTypeName"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "fieldName"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "mangledTypeName"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- ["Se", "class"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- ["Se", "objCClassWrapper"]
+- !private ["Se", "pointee"]
+- ["Se", "struct"]
+- !private ["Se", "subscript"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "init"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "key"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "offset"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "type"]
+- !private ["SE", "append"]
+- ["SE", "class"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SE", "objCClassWrapper"]
+- !private ["SE", "pointee"]
+- ["SE", "struct"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- !private ["SQ", "Class"]
+- !private ["SQ", "Int"]
+- ["SQ", "Kind"]
+- !private ["SQ", "MemoryLayout"]
+- ["SQ", "Metadata"]
+- !private ["SQ", "MetadataKindIsNonHeap"]
+- !private ["SQ", "MetadataKindIsNonType"]
+- !private ["SQ", "MetadataKindIsRuntimePrivate"]
+- ["SQ", "Pointee"]
+- !private ["SQ", "Property"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UnsafePointer"]
+- !private ["SQ", "UnsafeRawPointer"]
+- ["SQ", ""]
+- ["SQ", "_Default_Pointee"]
+- !private ["SQ", "_getTypeByMangledNameInContext"]
+- !private ["SQ", "_propertyDescriptionsAndStartPoint"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- ["SQ", "class"]
+- ["SQ", "contextDescriptorOffsetLocation"]
+- !private ["SQ", "contextDescriptorPointer"]
+- !private ["SQ", "count"]
+- !private ["SQ", "enum"]
+- !private ["SQ", "errorObject"]
+- !private ["SQ", "existential"]
+- !private ["SQ", "existentialMetatype"]
+- !private ["SQ", "fieldName"]
+- !private ["SQ", "fieldOffsets"]
+- !private ["SQ", "fieldRecords"]
+- !private ["SQ", "first"]
+- !private ["SQ", "foreignClass"]
+- !private ["SQ", "function"]
+- !private ["SQ", "genericArgumentOffsetLocation"]
+- !private ["SQ", "genericArgumentVector"]
+- !private ["SQ", "getMangledTypeNameSize"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "heapGenericLocalVariable"]
+- !private ["SQ", "heapLocalVariable"]
+- !private ["SQ", "init"]
+- !private ["SQ", "is64BitPlatform"]
+- ["SQ", "kind"]
+- !private ["SQ", "mangledTypeName"]
+- !private ["SQ", "map"]
+- !private ["SQ", "metatype"]
+- !private ["SQ", "numberOfFields"]
+- ["SQ", "objCClassWrapper"]
+- !private ["SQ", "opaque"]
+- !private ["SQ", "optional"]
+- !private ["SQ", "pointee"]
+- ["SQ", "pointer"]
+- !private ["SQ", "reflectionFieldDescriptor"]
+- ["SQ", "struct"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "superclass"]
+- !private ["SQ", "tuple"]
+- !private ["SQ", "type"]
+- !private ["SQ", "unsafeBitCast"]
+- !private ["SQ", "vTableSize"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "fieldName"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "mangledTypeName"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "class"]
+- ["s23ExpressibleByNilLiteralP", "objCClassWrapper"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- ["s23ExpressibleByNilLiteralP", "struct"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9HandyJSON15FieldDescriptorV", "fieldRecords"]
+- !private ["9HandyJSON11FieldRecordV", "fieldName"]
+- !private ["9HandyJSON11FieldRecordV", "mangledTypeName"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- !private ["SH", "MetadataKindIsNonHeap"]
+- !private ["SH", "MetadataKindIsNonType"]
+- !private ["SH", "MetadataKindIsRuntimePrivate"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- ["SH", "class"]
+- !private ["SH", "count"]
+- !private ["SH", "enum"]
+- !private ["SH", "errorObject"]
+- !private ["SH", "existential"]
+- !private ["SH", "existentialMetatype"]
+- !private ["SH", "fieldName"]
+- !private ["SH", "first"]
+- !private ["SH", "foreignClass"]
+- !private ["SH", "function"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "heapGenericLocalVariable"]
+- !private ["SH", "heapLocalVariable"]
+- !private ["SH", "init"]
+- !private ["SH", "mangledTypeName"]
+- !private ["SH", "map"]
+- !private ["SH", "metatype"]
+- ["SH", "objCClassWrapper"]
+- !private ["SH", "opaque"]
+- !private ["SH", "optional"]
+- !private ["SH", "pointee"]
+- ["SH", "struct"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tuple"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["9HandyJSON23IntegerPropertyProtocolP", "init"]
+- ["9HandyJSON8MetadataV4KindO", "=="]
+- ["9HandyJSON8MetadataV4KindO", "Int"]
+- !private ["9HandyJSON8MetadataV4KindO", "MetadataKindIsNonHeap"]
+- !private ["9HandyJSON8MetadataV4KindO", "MetadataKindIsNonType"]
+- !private ["9HandyJSON8MetadataV4KindO", "MetadataKindIsRuntimePrivate"]
+- ["9HandyJSON8MetadataV4KindO", "__derived_enum_equals"]
+- ["9HandyJSON8MetadataV4KindO", "_rawHashValue"]
+- ["9HandyJSON8MetadataV4KindO", "class"]
+- ["9HandyJSON8MetadataV4KindO", "deinit"]
+- ["9HandyJSON8MetadataV4KindO", "enum"]
+- ["9HandyJSON8MetadataV4KindO", "errorObject"]
+- ["9HandyJSON8MetadataV4KindO", "existential"]
+- ["9HandyJSON8MetadataV4KindO", "existentialMetatype"]
+- ["9HandyJSON8MetadataV4KindO", "foreignClass"]
+- ["9HandyJSON8MetadataV4KindO", "function"]
+- ["9HandyJSON8MetadataV4KindO", "hash"]
+- ["9HandyJSON8MetadataV4KindO", "hashValue"]
+- ["9HandyJSON8MetadataV4KindO", "heapGenericLocalVariable"]
+- ["9HandyJSON8MetadataV4KindO", "heapLocalVariable"]
+- ["9HandyJSON8MetadataV4KindO", "init"]
+- ["9HandyJSON8MetadataV4KindO", "metatype"]
+- ["9HandyJSON8MetadataV4KindO", "objCClassWrapper"]
+- ["9HandyJSON8MetadataV4KindO", "opaque"]
+- ["9HandyJSON8MetadataV4KindO", "optional"]
+- ["9HandyJSON8MetadataV4KindO", "struct"]
+- ["9HandyJSON8MetadataV4KindO", "tuple"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["9HandyJSON8MetadataV", "=="]
+- ["9HandyJSON8MetadataV", "Bool"]
+- ["9HandyJSON8MetadataV", "Class"]
+- ["9HandyJSON8MetadataV", "ContextDescriptorType"]
+- !private ["9HandyJSON8MetadataV", "HandyJSON"]
+- !private ["9HandyJSON8MetadataV", "HandyJSONEnum"]
+- ["9HandyJSON8MetadataV", "Int"]
+- ["9HandyJSON8MetadataV", "Int32"]
+- ["9HandyJSON8MetadataV", "Kind"]
+- !private ["9HandyJSON8MetadataV", "MemoryLayout"]
+- !private ["9HandyJSON8MetadataV", "Metadata"]
+- !private ["9HandyJSON8MetadataV", "MetadataKindIsNonHeap"]
+- !private ["9HandyJSON8MetadataV", "MetadataKindIsNonType"]
+- !private ["9HandyJSON8MetadataV", "MetadataKindIsRuntimePrivate"]
+- ["9HandyJSON8MetadataV", "ObjcClassWrapper"]
+- ["9HandyJSON8MetadataV", "Pointee"]
+- ["9HandyJSON8MetadataV", "Property"]
+- !private ["9HandyJSON8MetadataV", "String"]
+- ["9HandyJSON8MetadataV", "Struct"]
+- ["9HandyJSON8MetadataV", "UnsafePointer"]
+- ["9HandyJSON8MetadataV", "UnsafeRawPointer"]
+- ["9HandyJSON8MetadataV", "_Default_Pointee"]
+- ["9HandyJSON8MetadataV", "_Metadata"]
+- !private ["9HandyJSON8MetadataV", "_getTypeByMangledNameInContext"]
+- ["9HandyJSON8MetadataV", "deinit"]
+- !private ["9HandyJSON8MetadataV", "getMangledTypeNameSize"]
+- ["9HandyJSON8MetadataV", "init"]
+- !private ["9HandyJSON8MetadataV", "is64BitPlatform"]
+- ["9HandyJSON8MetadataV", "kind"]
+- ["9HandyJSON8MetadataV", "pointer"]
+- !private ["9HandyJSON8MetadataV", "unsafeBitCast"]
+- ["9HandyJSON12MetadataTypeP", "=="]
+- !private ["9HandyJSON12MetadataTypeP", "Class"]
+- !private ["9HandyJSON12MetadataTypeP", "Int"]
+- ["9HandyJSON12MetadataTypeP", "Kind"]
+- !private ["9HandyJSON12MetadataTypeP", "MemoryLayout"]
+- ["9HandyJSON12MetadataTypeP", "Metadata"]
+- !private ["9HandyJSON12MetadataTypeP", "MetadataKindIsNonHeap"]
+- !private ["9HandyJSON12MetadataTypeP", "MetadataKindIsNonType"]
+- !private ["9HandyJSON12MetadataTypeP", "MetadataKindIsRuntimePrivate"]
+- ["9HandyJSON12MetadataTypeP", "Pointee"]
+- !private ["9HandyJSON12MetadataTypeP", "Property"]
+- !private ["9HandyJSON12MetadataTypeP", "String"]
+- !private ["9HandyJSON12MetadataTypeP", "UnsafePointer"]
+- !private ["9HandyJSON12MetadataTypeP", "UnsafeRawPointer"]
+- ["9HandyJSON12MetadataTypeP", ""]
+- ["9HandyJSON12MetadataTypeP", "_Default_Pointee"]
+- !private ["9HandyJSON12MetadataTypeP", "_getTypeByMangledNameInContext"]
+- !private ["9HandyJSON12MetadataTypeP", "_propertyDescriptionsAndStartPoint"]
+- ["9HandyJSON12MetadataTypeP", "contextDescriptorOffsetLocation"]
+- !private ["9HandyJSON12MetadataTypeP", "contextDescriptorPointer"]
+- !private ["9HandyJSON12MetadataTypeP", "fieldOffsets"]
+- !private ["9HandyJSON12MetadataTypeP", "genericArgumentOffsetLocation"]
+- !private ["9HandyJSON12MetadataTypeP", "genericArgumentVector"]
+- !private ["9HandyJSON12MetadataTypeP", "getMangledTypeNameSize"]
+- ["9HandyJSON12MetadataTypeP", "init"]
+- !private ["9HandyJSON12MetadataTypeP", "is64BitPlatform"]
+- ["9HandyJSON12MetadataTypeP", "kind"]
+- !private ["9HandyJSON12MetadataTypeP", "numberOfFields"]
+- ["9HandyJSON12MetadataTypeP", "pointer"]
+- !private ["9HandyJSON12MetadataTypeP", "reflectionFieldDescriptor"]
+- !private ["9HandyJSON12MetadataTypeP", "superclass"]
+- !private ["9HandyJSON12MetadataTypeP", "type"]
+- !private ["9HandyJSON12MetadataTypeP", "unsafeBitCast"]
+- !private ["9HandyJSON12MetadataTypeP", "vTableSize"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "fieldName"]
+- !private ["SM", "first"]
+- !private ["SM", "mangledTypeName"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "=="]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "Int"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "Kind"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "Pointee"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "UnsafePointer"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "_Default_Pointee"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "_Metadata"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "contextDescriptorOffsetLocation"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "deinit"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "init"]
+- !private ["9HandyJSON8MetadataV16ObjcClassWrapperV", "is64BitPlatform"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "kind"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "pointer"]
+- ["9HandyJSON8MetadataV16ObjcClassWrapperV", "targetType"]
+- ["Sq", "class"]
+- ["Sq", "objCClassWrapper"]
+- !private ["Sq", "pointee"]
+- ["Sq", "struct"]
+- ["9HandyJSON11PointerTypeP", "=="]
+- !private ["9HandyJSON11PointerTypeP", "Class"]
+- !private ["9HandyJSON11PointerTypeP", "Int"]
+- ["9HandyJSON11PointerTypeP", "Kind"]
+- !private ["9HandyJSON11PointerTypeP", "MemoryLayout"]
+- ["9HandyJSON11PointerTypeP", "Metadata"]
+- !private ["9HandyJSON11PointerTypeP", "MetadataKindIsNonHeap"]
+- !private ["9HandyJSON11PointerTypeP", "MetadataKindIsNonType"]
+- !private ["9HandyJSON11PointerTypeP", "MetadataKindIsRuntimePrivate"]
+- ["9HandyJSON11PointerTypeP", "Pointee"]
+- !private ["9HandyJSON11PointerTypeP", "Property"]
+- !private ["9HandyJSON11PointerTypeP", "String"]
+- !private ["9HandyJSON11PointerTypeP", "UnsafePointer"]
+- !private ["9HandyJSON11PointerTypeP", "UnsafeRawPointer"]
+- ["9HandyJSON11PointerTypeP", ""]
+- ["9HandyJSON11PointerTypeP", "_Default_Pointee"]
+- !private ["9HandyJSON11PointerTypeP", "_getTypeByMangledNameInContext"]
+- !private ["9HandyJSON11PointerTypeP", "_propertyDescriptionsAndStartPoint"]
+- ["9HandyJSON11PointerTypeP", "contextDescriptorOffsetLocation"]
+- !private ["9HandyJSON11PointerTypeP", "contextDescriptorPointer"]
+- !private ["9HandyJSON11PointerTypeP", "fieldName"]
+- !private ["9HandyJSON11PointerTypeP", "fieldOffsets"]
+- !private ["9HandyJSON11PointerTypeP", "fieldRecords"]
+- !private ["9HandyJSON11PointerTypeP", "genericArgumentOffsetLocation"]
+- !private ["9HandyJSON11PointerTypeP", "genericArgumentVector"]
+- !private ["9HandyJSON11PointerTypeP", "getMangledTypeNameSize"]
+- !private ["9HandyJSON11PointerTypeP", "init"]
+- !private ["9HandyJSON11PointerTypeP", "is64BitPlatform"]
+- ["9HandyJSON11PointerTypeP", "kind"]
+- !private ["9HandyJSON11PointerTypeP", "mangledTypeName"]
+- !private ["9HandyJSON11PointerTypeP", "numberOfFields"]
+- ["9HandyJSON11PointerTypeP", "pointer"]
+- !private ["9HandyJSON11PointerTypeP", "reflectionFieldDescriptor"]
+- !private ["9HandyJSON11PointerTypeP", "superclass"]
+- !private ["9HandyJSON11PointerTypeP", "type"]
+- !private ["9HandyJSON11PointerTypeP", "unsafeBitCast"]
+- !private ["9HandyJSON11PointerTypeP", "vTableSize"]
+- ["9HandyJSON8PropertyV", "Description"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "fieldName"]
+- !private ["Sk", "first"]
+- !private ["Sk", "mangledTypeName"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "fieldName"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "mangledTypeName"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "fieldName"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "mangledTypeName"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- ["9HandyJSON8MetadataV6StructV", "=="]
+- ["9HandyJSON8MetadataV6StructV", "Int"]
+- ["9HandyJSON8MetadataV6StructV", "Kind"]
+- ["9HandyJSON8MetadataV6StructV", "Pointee"]
+- ["9HandyJSON8MetadataV6StructV", "Property"]
+- !private ["9HandyJSON8MetadataV6StructV", "String"]
+- ["9HandyJSON8MetadataV6StructV", "UnsafePointer"]
+- ["9HandyJSON8MetadataV6StructV", "UnsafeRawPointer"]
+- ["9HandyJSON8MetadataV6StructV", "_Default_Pointee"]
+- ["9HandyJSON8MetadataV6StructV", "_Metadata"]
+- !private ["9HandyJSON8MetadataV6StructV", "_getTypeByMangledNameInContext"]
+- ["9HandyJSON8MetadataV6StructV", "contextDescriptorOffsetLocation"]
+- !private ["9HandyJSON8MetadataV6StructV", "contextDescriptorPointer"]
+- ["9HandyJSON8MetadataV6StructV", "deinit"]
+- !private ["9HandyJSON8MetadataV6StructV", "fieldOffsets"]
+- ["9HandyJSON8MetadataV6StructV", "genericArgumentOffsetLocation"]
+- ["9HandyJSON8MetadataV6StructV", "genericArgumentVector"]
+- !private ["9HandyJSON8MetadataV6StructV", "getMangledTypeNameSize"]
+- ["9HandyJSON8MetadataV6StructV", "init"]
+- ["9HandyJSON8MetadataV6StructV", "kind"]
+- !private ["9HandyJSON8MetadataV6StructV", "numberOfFields"]
+- ["9HandyJSON8MetadataV6StructV", "pointer"]
+- ["9HandyJSON8MetadataV6StructV", "propertyDescriptions"]
+- !private ["9HandyJSON8MetadataV6StructV", "reflectionFieldDescriptor"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "deinit"]
+- !private ["Su", "init"]
+- !private ["s6UInt64V", "deinit"]
+- !private ["s6UInt64V", "init"]
+- !private ["9HandyJSON17UTF8InitializableP", "init"]
+- !private ["SP", "advanced"]
+- !private ["SP", "init"]
+- !private ["SP", "pointee"]
+- !private ["SV", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "fieldName"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "mangledTypeName"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "append"]
+- ["9HandyJSON17_BuiltInBasicTypeP", "class"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "count"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "first"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "map"]
+- ["9HandyJSON17_BuiltInBasicTypeP", "objCClassWrapper"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "pointee"]
+- ["9HandyJSON17_BuiltInBasicTypeP", "struct"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["9HandyJSON9_MetadataV6_ClassV", "Int"]
+- !private ["9HandyJSON9_MetadataV6_ClassV", "Int64"]
+- !private ["9HandyJSON9_MetadataV6_ClassV", "MemoryLayout"]
+- ["9HandyJSON9_MetadataV6_ClassV", "UInt"]
+- ["9HandyJSON9_MetadataV6_ClassV", "UInt16"]
+- ["9HandyJSON9_MetadataV6_ClassV", "UInt32"]
+- !private ["9HandyJSON9_MetadataV6_ClassV", "UInt64"]
+- ["9HandyJSON9_MetadataV6_ClassV", "UnsafePointer"]
+- ["9HandyJSON9_MetadataV6_ClassV", "_class_rw_t"]
+- ["9HandyJSON9_MetadataV6_ClassV", "classFlags"]
+- ["9HandyJSON9_MetadataV6_ClassV", "classObjectAddressPoint"]
+- ["9HandyJSON9_MetadataV6_ClassV", "classObjectSize"]
+- ["9HandyJSON9_MetadataV6_ClassV", "class_rw_t"]
+- ["9HandyJSON9_MetadataV6_ClassV", "init"]
+- ["9HandyJSON9_MetadataV6_ClassV", "instanceAddressPoint"]
+- ["9HandyJSON9_MetadataV6_ClassV", "instanceAlignmentMask"]
+- ["9HandyJSON9_MetadataV6_ClassV", "instanceSize"]
+- ["9HandyJSON9_MetadataV6_ClassV", "ivarDestroyer"]
+- ["9HandyJSON9_MetadataV6_ClassV", "kind"]
+- ["9HandyJSON9_MetadataV6_ClassV", "nominalTypeDescriptor"]
+- ["9HandyJSON9_MetadataV6_ClassV", "reserveword1"]
+- ["9HandyJSON9_MetadataV6_ClassV", "reserveword2"]
+- ["9HandyJSON9_MetadataV6_ClassV", "rodataPointer"]
+- ["9HandyJSON9_MetadataV6_ClassV", "runtimeReservedField"]
+- ["9HandyJSON9_MetadataV6_ClassV", "superclass"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "fieldName"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "mangledTypeName"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["9HandyJSON11_MeasurableP", "append"]
+- ["9HandyJSON11_MeasurableP", "class"]
+- !private ["9HandyJSON11_MeasurableP", "count"]
+- !private ["9HandyJSON11_MeasurableP", "first"]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "map"]
+- ["9HandyJSON11_MeasurableP", "objCClassWrapper"]
+- !private ["9HandyJSON11_MeasurableP", "pointee"]
+- ["9HandyJSON11_MeasurableP", "struct"]
+- !private ["9HandyJSON11_MeasurableP", "subscript"]
+- ["9HandyJSON9_MetadataV", "Int"]
+- !private ["9HandyJSON9_MetadataV", "Int64"]
+- !private ["9HandyJSON9_MetadataV", "MemoryLayout"]
+- ["9HandyJSON9_MetadataV", "Metadata"]
+- ["9HandyJSON9_MetadataV", "UInt"]
+- ["9HandyJSON9_MetadataV", "UInt16"]
+- ["9HandyJSON9_MetadataV", "UInt32"]
+- !private ["9HandyJSON9_MetadataV", "UInt64"]
+- ["9HandyJSON9_MetadataV", "UnsafePointer"]
+- ["9HandyJSON9_MetadataV", "_Class"]
+- ["9HandyJSON9_MetadataV", "_ObjcClassWrapper"]
+- ["9HandyJSON9_MetadataV", "_Struct"]
+- ["9HandyJSON9_MetadataV", "_class_rw_t"]
+- ["9HandyJSON9_MetadataV", "init"]
+- ["9HandyJSON9_MetadataV17_ObjcClassWrapperV", "Int"]
+- ["9HandyJSON9_MetadataV17_ObjcClassWrapperV", "init"]
+- ["9HandyJSON9_MetadataV17_ObjcClassWrapperV", "kind"]
+- ["9HandyJSON9_MetadataV17_ObjcClassWrapperV", "targetType"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "class"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "objCClassWrapper"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- ["s21_ObjectiveCBridgeableP", "struct"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- ["9HandyJSON9_MetadataV7_StructV", "Int"]
+- ["9HandyJSON9_MetadataV7_StructV", "Metadata"]
+- ["9HandyJSON9_MetadataV7_StructV", "contextDescriptorOffset"]
+- ["9HandyJSON9_MetadataV7_StructV", "init"]
+- ["9HandyJSON9_MetadataV7_StructV", "kind"]
+- ["9HandyJSON9_MetadataV7_StructV", "parent"]
+- !private ["9HandyJSON14_TransformableP", "append"]
+- ["9HandyJSON14_TransformableP", "class"]
+- !private ["9HandyJSON14_TransformableP", "count"]
+- !private ["9HandyJSON14_TransformableP", "first"]
+- !private ["9HandyJSON14_TransformableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "map"]
+- ["9HandyJSON14_TransformableP", "objCClassWrapper"]
+- !private ["9HandyJSON14_TransformableP", "pointee"]
+- ["9HandyJSON14_TransformableP", "struct"]
+- !private ["9HandyJSON14_TransformableP", "subscript"]
+- ["9HandyJSON11_class_ro_tV", "Int32"]
+- ["9HandyJSON11_class_ro_tV", "flags"]
+- ["9HandyJSON11_class_ro_tV", "init"]
+- ["9HandyJSON11_class_ro_tV", "instanceSize"]
+- ["9HandyJSON11_class_ro_tV", "instanceStart"]
+- ["9HandyJSON11_class_rw_tV", "Int32"]
+- ["9HandyJSON11_class_rw_tV", "UInt"]
+- ["9HandyJSON11_class_rw_tV", "UnsafePointer"]
+- ["9HandyJSON11_class_rw_tV", "_class_ro_t"]
+- ["9HandyJSON11_class_rw_tV", "class_ro_t"]
+- ["9HandyJSON11_class_rw_tV", "flags"]
+- ["9HandyJSON11_class_rw_tV", "init"]
+- ["9HandyJSON11_class_rw_tV", "ro"]
+- ["9HandyJSON11_class_rw_tV", "version"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "9HandyJSON8MetadataV5ClassV"
+- !private "Sl"
+- !private "SL"
+- "9HandyJSON21ContextDescriptorTypeP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "9HandyJSON8PropertyV11DescriptionV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9HandyJSON15FieldDescriptorV"
+- !private "9HandyJSON11FieldRecordV"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "9HandyJSON23IntegerPropertyProtocolP"
+- "9HandyJSON8MetadataV4KindO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "9HandyJSON8MetadataV"
+- "9HandyJSON12MetadataTypeP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- "9HandyJSON8MetadataV16ObjcClassWrapperV"
+- "Sq"
+- "9HandyJSON11PointerTypeP"
+- "9HandyJSON8PropertyV"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "9HandyJSON8MetadataV6StructV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- !private "s6UInt64V"
+- !private "9HandyJSON17UTF8InitializableP"
+- !private "SP"
+- !private "SV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s15_CVarArgAlignedP"
+- "9HandyJSON9_MetadataV6_ClassV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "9HandyJSON11_MeasurableP"
+- "9HandyJSON9_MetadataV"
+- "9HandyJSON9_MetadataV17_ObjcClassWrapperV"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "9HandyJSON9_MetadataV7_StructV"
+- "9HandyJSON14_TransformableP"
+- "9HandyJSON11_class_ro_tV"
+- "9HandyJSON11_class_rw_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/HandyJSON/HandyJSON-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/HandyJSON.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "621c79e78353e921e7baaeef857679a4"

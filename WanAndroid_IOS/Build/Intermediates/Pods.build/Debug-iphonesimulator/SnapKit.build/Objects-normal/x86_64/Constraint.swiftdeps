@@ -1,0 +1,594 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constraint"
+provides-nominal:
+- "7SnapKit10ConstraintC"
+provides-member:
+- ["7SnapKit10ConstraintC", ""]
+provides-dynamic-lookup:
+- "activate"
+- "activateIfNeeded"
+- "constant"
+- "deactivate"
+- "deactivateIfNeeded"
+- "from"
+- "install"
+- "isActive"
+- "label"
+- "layoutConstraints"
+- "multiplier"
+- "priority"
+- "relation"
+- "sourceLocation"
+- "to"
+- "uninstall"
+- "update"
+- "updateConstantAndPriorityIfNeeded"
+- "updateInsets"
+- "updateOffset"
+- "updatePriority"
+- "updatePriorityHigh"
+- "updatePriorityLow"
+- "updatePriorityMedium"
+- "updatePriorityRequired"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CGFloat"
+- "Constraint"
+- "ConstraintConstantTarget"
+- "ConstraintDirectionalInsetTarget"
+- "ConstraintInsetTarget"
+- "ConstraintItem"
+- "ConstraintMultiplierTarget"
+- "ConstraintOffsetTarget"
+- "ConstraintPriority"
+- "ConstraintPriorityTarget"
+- "ConstraintRelation"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "LayoutAttribute"
+- "LayoutConstraint"
+- !private "LayoutPriority"
+- !private "NSLayoutConstraint"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- "Void"
+- !private "fatalError"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- ["So17NSLayoutAttributeV", "bottom"]
+- ["So17NSLayoutAttributeV", "bottomMargin"]
+- !private ["So17NSLayoutAttributeV", "centerX"]
+- !private ["So17NSLayoutAttributeV", "centerY"]
+- !private ["So17NSLayoutAttributeV", "height"]
+- ["So17NSLayoutAttributeV", "leading"]
+- ["So17NSLayoutAttributeV", "leadingMargin"]
+- ["So17NSLayoutAttributeV", "left"]
+- ["So17NSLayoutAttributeV", "leftMargin"]
+- !private ["So17NSLayoutAttributeV", "notAnAttribute"]
+- ["So17NSLayoutAttributeV", "right"]
+- ["So17NSLayoutAttributeV", "rightMargin"]
+- ["So17NSLayoutAttributeV", "top"]
+- ["So17NSLayoutAttributeV", "topMargin"]
+- ["So17NSLayoutAttributeV", "trailing"]
+- ["So17NSLayoutAttributeV", "trailingMargin"]
+- !private ["So17NSLayoutAttributeV", "width"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "subscript"]
+- !private ["12CoreGraphics7CGFloatV", "deinit"]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deactivate"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "firstAttribute"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "priority"]
+- !private ["s7CVarArgP", "secondAttribute"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "rawValue"]
+- !private ["SL", "required"]
+- !private ["SL", "value"]
+- !private ["7SnapKit10ConstraintC", "AnyObject"]
+- ["7SnapKit10ConstraintC", "Bool"]
+- !private ["7SnapKit10ConstraintC", "CGFloat"]
+- ["7SnapKit10ConstraintC", "Constraint"]
+- ["7SnapKit10ConstraintC", "ConstraintConstantTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintDirectionalInsetTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintInsetTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintItem"]
+- ["7SnapKit10ConstraintC", "ConstraintMultiplierTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintOffsetTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintPriority"]
+- ["7SnapKit10ConstraintC", "ConstraintPriorityTarget"]
+- ["7SnapKit10ConstraintC", "ConstraintRelation"]
+- !private ["7SnapKit10ConstraintC", "LayoutAttribute"]
+- ["7SnapKit10ConstraintC", "LayoutConstraint"]
+- !private ["7SnapKit10ConstraintC", "LayoutPriority"]
+- !private ["7SnapKit10ConstraintC", "NSLayoutConstraint"]
+- ["7SnapKit10ConstraintC", "String"]
+- ["7SnapKit10ConstraintC", "UInt"]
+- ["7SnapKit10ConstraintC", "Void"]
+- ["7SnapKit10ConstraintC", "activate"]
+- ["7SnapKit10ConstraintC", "activateIfNeeded"]
+- !private ["7SnapKit10ConstraintC", "constant"]
+- ["7SnapKit10ConstraintC", "deactivate"]
+- ["7SnapKit10ConstraintC", "deactivateIfNeeded"]
+- ["7SnapKit10ConstraintC", "deinit"]
+- !private ["7SnapKit10ConstraintC", "fatalError"]
+- !private ["7SnapKit10ConstraintC", "from"]
+- ["7SnapKit10ConstraintC", "init"]
+- ["7SnapKit10ConstraintC", "install"]
+- ["7SnapKit10ConstraintC", "isActive"]
+- ["7SnapKit10ConstraintC", "label"]
+- ["7SnapKit10ConstraintC", "layoutConstraints"]
+- !private ["7SnapKit10ConstraintC", "multiplier"]
+- !private ["7SnapKit10ConstraintC", "print"]
+- !private ["7SnapKit10ConstraintC", "priority"]
+- !private ["7SnapKit10ConstraintC", "relation"]
+- ["7SnapKit10ConstraintC", "sourceLocation"]
+- !private ["7SnapKit10ConstraintC", "to"]
+- ["7SnapKit10ConstraintC", "uninstall"]
+- ["7SnapKit10ConstraintC", "update"]
+- ["7SnapKit10ConstraintC", "updateConstantAndPriorityIfNeeded"]
+- ["7SnapKit10ConstraintC", "updateInsets"]
+- ["7SnapKit10ConstraintC", "updateOffset"]
+- ["7SnapKit10ConstraintC", "updatePriority"]
+- ["7SnapKit10ConstraintC", "updatePriorityHigh"]
+- ["7SnapKit10ConstraintC", "updatePriorityLow"]
+- ["7SnapKit10ConstraintC", "updatePriorityMedium"]
+- ["7SnapKit10ConstraintC", "updatePriorityRequired"]
+- !private ["7SnapKit20ConstraintAttributesV", "directionalEdges"]
+- !private ["7SnapKit20ConstraintAttributesV", "directionalMargins"]
+- !private ["7SnapKit20ConstraintAttributesV", "edges"]
+- !private ["7SnapKit20ConstraintAttributesV", "layoutAttributes"]
+- !private ["7SnapKit20ConstraintAttributesV", "margins"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "constraintConstantTargetValueFor"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "constraintDirectionalInsetTargetValue"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "constraintInsetTargetValue"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "constraintOffsetTargetValue"]
+- !private ["7SnapKit32ConstraintDirectionalInsetTargetP", "constraintDirectionalInsetTargetValue"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "constraintInsetTargetValue"]
+- !private ["7SnapKit14ConstraintItemC", "attributes"]
+- !private ["7SnapKit14ConstraintItemC", "layoutConstraintItem"]
+- !private ["7SnapKit14ConstraintItemC", "target"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "constraintMultiplierTargetValue"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "constraintOffsetTargetValue"]
+- !private ["7SnapKit18ConstraintPriorityV", "required"]
+- !private ["7SnapKit18ConstraintPriorityV", "value"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "constraintPriorityTargetValue"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "init"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "rawValue"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "attributes"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layoutConstraintItem"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "target"]
+- !private ["7SnapKit18ConstraintRelationO", "layoutRelation"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deactivate"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "priority"]
+- !private ["s28CustomDebugStringConvertibleP", "secondAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "deactivate"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstAttribute"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "priority"]
+- !private ["s23CustomStringConvertibleP", "secondAttribute"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "activate"]
+- !private ["SQ", "append"]
+- ["SQ", "bottom"]
+- ["SQ", "bottomMargin"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "centerX"]
+- !private ["SQ", "centerY"]
+- !private ["SQ", "constant"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deactivate"]
+- !private ["SQ", "directionalEdges"]
+- !private ["SQ", "directionalMargins"]
+- !private ["SQ", "edges"]
+- !private ["SQ", "first"]
+- !private ["SQ", "firstAttribute"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isActive"]
+- !private ["SQ", "label"]
+- !private ["SQ", "layoutAttributes"]
+- !private ["SQ", "layoutRelation"]
+- ["SQ", "leading"]
+- ["SQ", "leadingMargin"]
+- ["SQ", "left"]
+- ["SQ", "leftMargin"]
+- !private ["SQ", "margins"]
+- !private ["SQ", "notAnAttribute"]
+- !private ["SQ", "priority"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "required"]
+- ["SQ", "right"]
+- ["SQ", "rightMargin"]
+- !private ["SQ", "secondAttribute"]
+- !private ["SQ", "subscript"]
+- ["SQ", "top"]
+- ["SQ", "topMargin"]
+- ["SQ", "trailing"]
+- ["SQ", "trailingMargin"]
+- !private ["SQ", "value"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "directionalEdges"]
+- !private ["s25ExpressibleByArrayLiteralP", "directionalMargins"]
+- !private ["s25ExpressibleByArrayLiteralP", "edges"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "layoutAttributes"]
+- !private ["s25ExpressibleByArrayLiteralP", "margins"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "required"]
+- !private ["s25ExpressibleByFloatLiteralP", "value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "directionalEdges"]
+- !private ["s27ExpressibleByIntegerLiteralP", "directionalMargins"]
+- !private ["s27ExpressibleByIntegerLiteralP", "edges"]
+- !private ["s27ExpressibleByIntegerLiteralP", "layoutAttributes"]
+- !private ["s27ExpressibleByIntegerLiteralP", "margins"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["Sf", "deinit"]
+- !private ["SH", "activate"]
+- !private ["SH", "append"]
+- ["SH", "bottom"]
+- ["SH", "bottomMargin"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "centerX"]
+- !private ["SH", "centerY"]
+- !private ["SH", "constant"]
+- !private ["SH", "constraint"]
+- !private ["SH", "count"]
+- !private ["SH", "deactivate"]
+- !private ["SH", "first"]
+- !private ["SH", "firstAttribute"]
+- !private ["SH", "height"]
+- !private ["SH", "init"]
+- !private ["SH", "isActive"]
+- !private ["SH", "label"]
+- !private ["SH", "layoutRelation"]
+- ["SH", "leading"]
+- ["SH", "leadingMargin"]
+- ["SH", "left"]
+- ["SH", "leftMargin"]
+- !private ["SH", "notAnAttribute"]
+- !private ["SH", "priority"]
+- !private ["SH", "rawValue"]
+- ["SH", "right"]
+- ["SH", "rightMargin"]
+- !private ["SH", "secondAttribute"]
+- !private ["SH", "subscript"]
+- ["SH", "top"]
+- ["SH", "topMargin"]
+- ["SH", "trailing"]
+- ["SH", "trailingMargin"]
+- !private ["SH", "width"]
+- !private ["7SnapKit16LayoutConstraintC", "constant"]
+- !private ["7SnapKit16LayoutConstraintC", "constraint"]
+- !private ["7SnapKit16LayoutConstraintC", "deinit"]
+- !private ["7SnapKit16LayoutConstraintC", "firstAttribute"]
+- !private ["7SnapKit16LayoutConstraintC", "init"]
+- !private ["7SnapKit16LayoutConstraintC", "isActive"]
+- !private ["7SnapKit16LayoutConstraintC", "label"]
+- !private ["7SnapKit16LayoutConstraintC", "priority"]
+- !private ["7SnapKit16LayoutConstraintC", "secondAttribute"]
+- !private ["7SnapKit20LayoutConstraintItemP", "add"]
+- !private ["7SnapKit20LayoutConstraintItemP", "constraints"]
+- !private ["7SnapKit20LayoutConstraintItemP", "remove"]
+- !private ["7SnapKit20LayoutConstraintItemP", "superview"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So23NSDirectionalEdgeInsetsV", "deinit"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- !private ["So18NSLayoutConstraintC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "deactivate"]
+- !private ["So18NSLayoutConstraintC", "firstAttribute"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So18NSLayoutConstraintC", "label"]
+- !private ["So18NSLayoutConstraintC", "priority"]
+- !private ["So18NSLayoutConstraintC", "secondAttribute"]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "deactivate"]
+- !private ["So8NSObjectC", "firstAttribute"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "priority"]
+- !private ["So8NSObjectC", "secondAttribute"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "constant"]
+- !private ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "deactivate"]
+- !private ["So8NSObjectP", "firstAttribute"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isActive"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "priority"]
+- !private ["So8NSObjectP", "secondAttribute"]
+- !private ["s9OptionSetP", "directionalEdges"]
+- !private ["s9OptionSetP", "directionalMargins"]
+- !private ["s9OptionSetP", "edges"]
+- !private ["s9OptionSetP", "layoutAttributes"]
+- !private ["s9OptionSetP", "margins"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "subscript"]
+- ["SY", "bottom"]
+- ["SY", "bottomMargin"]
+- !private ["SY", "centerX"]
+- !private ["SY", "centerY"]
+- !private ["SY", "directionalEdges"]
+- !private ["SY", "directionalMargins"]
+- !private ["SY", "edges"]
+- !private ["SY", "height"]
+- !private ["SY", "init"]
+- !private ["SY", "layoutAttributes"]
+- !private ["SY", "layoutRelation"]
+- ["SY", "leading"]
+- ["SY", "leadingMargin"]
+- ["SY", "left"]
+- ["SY", "leftMargin"]
+- !private ["SY", "margins"]
+- !private ["SY", "notAnAttribute"]
+- !private ["SY", "rawValue"]
+- ["SY", "right"]
+- ["SY", "rightMargin"]
+- ["SY", "top"]
+- ["SY", "topMargin"]
+- ["SY", "trailing"]
+- ["SY", "trailingMargin"]
+- !private ["SY", "width"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "directionalEdges"]
+- !private ["s10SetAlgebraP", "directionalMargins"]
+- !private ["s10SetAlgebraP", "edges"]
+- !private ["s10SetAlgebraP", "layoutAttributes"]
+- !private ["s10SetAlgebraP", "margins"]
+- !private ["Sx", "required"]
+- !private ["Sx", "value"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So12UIEdgeInsetsV", "deinit"]
+- !private ["So16UILayoutPrioritya", "init"]
+- !private ["So16UILayoutPrioritya", "rawValue"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deactivate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deactivate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "label"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "priority"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondAttribute"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
+- !private ["5UIKit01_A23NumericRawRepresentableP", "init"]
+- !private ["5UIKit01_A23NumericRawRepresentableP", "rawValue"]
+depends-nominal:
+- !private "Sa"
+- "So17NSLayoutAttributeV"
+- !private "SK"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "7SnapKit10ConstraintC"
+- !private "7SnapKit20ConstraintAttributesV"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit32ConstraintDirectionalInsetTargetP"
+- !private "7SnapKit21ConstraintInsetTargetP"
+- !private "7SnapKit14ConstraintItemC"
+- !private "7SnapKit26ConstraintMultiplierTargetP"
+- !private "7SnapKit22ConstraintOffsetTargetP"
+- !private "7SnapKit18ConstraintPriorityV"
+- !private "7SnapKit24ConstraintPriorityTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "7SnapKit18ConstraintRelationO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "Sf"
+- "SH"
+- !private "7SnapKit16LayoutConstraintC"
+- !private "7SnapKit20LayoutConstraintItemP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So23NSDirectionalEdgeInsetsV"
+- !private "So18NSLayoutConstraintC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So12UIEdgeInsetsV"
+- !private "So16UILayoutPrioritya"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "5UIKit01_A23NumericRawRepresentableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e2a2283ac23aa66b5292ec16efa42b03"

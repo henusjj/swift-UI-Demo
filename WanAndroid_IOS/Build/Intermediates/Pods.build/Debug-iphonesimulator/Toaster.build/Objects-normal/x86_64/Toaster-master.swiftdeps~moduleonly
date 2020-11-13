@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "17877056690feda64071a6a972335dea"
+build_time: [1605145290, 416034000]
+inputs:
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Toaster/Sources/Toast.swift": [1604632978, 567470429]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Toaster/Sources/ToastCenter.swift": [1604632978, 568117840]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Toaster/Sources/ToastView.swift": [1604632978, 564382565]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Toaster/Sources/ToastWindow.swift": [1604632978, 561746324]

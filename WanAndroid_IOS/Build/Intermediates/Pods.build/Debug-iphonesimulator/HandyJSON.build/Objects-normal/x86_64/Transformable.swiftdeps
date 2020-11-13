@@ -1,0 +1,87 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_Transformable"
+provides-nominal:
+- "9HandyJSON14_TransformableP"
+provides-member:
+- ["9HandyJSON14_TransformableP", ""]
+- ["9HandyJSON14_TransformableP", "transform"]
+- ["9HandyJSON14_TransformableP", "plainValue"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- !private "_BuiltInBasicType"
+- !private "_BuiltInBridgeType"
+- !private "_ExtendCustomBasicType"
+- !private "_ExtendCustomModelType"
+- "_Measurable"
+- !private "_RawEnumProtocol"
+- "_Transformable"
+depends-member:
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "_plainValue"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "_transform"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "_plainValue"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "_transform"]
+- !private ["9HandyJSON22_ExtendCustomBasicTypeP", "_plainValue"]
+- !private ["9HandyJSON22_ExtendCustomBasicTypeP", "_transform"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "_plainValue"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "_transform"]
+- ["9HandyJSON11_MeasurableP", ""]
+- !private ["9HandyJSON11_MeasurableP", "_BuiltInBasicType"]
+- !private ["9HandyJSON11_MeasurableP", "_BuiltInBridgeType"]
+- !private ["9HandyJSON11_MeasurableP", "_ExtendCustomBasicType"]
+- !private ["9HandyJSON11_MeasurableP", "_ExtendCustomModelType"]
+- !private ["9HandyJSON11_MeasurableP", "_RawEnumProtocol"]
+- !private ["9HandyJSON11_MeasurableP", "_plainValue"]
+- !private ["9HandyJSON11_MeasurableP", "_transform"]
+- !private ["9HandyJSON16_RawEnumProtocolP", "_plainValue"]
+- !private ["9HandyJSON16_RawEnumProtocolP", "_transform"]
+- !private ["9HandyJSON14_TransformableP", "_BuiltInBasicType"]
+- !private ["9HandyJSON14_TransformableP", "_BuiltInBridgeType"]
+- !private ["9HandyJSON14_TransformableP", "_ExtendCustomBasicType"]
+- !private ["9HandyJSON14_TransformableP", "_ExtendCustomModelType"]
+- !private ["9HandyJSON14_TransformableP", "_RawEnumProtocol"]
+- !private ["9HandyJSON14_TransformableP", "_plainValue"]
+- !private ["9HandyJSON14_TransformableP", "_transform"]
+- ["9HandyJSON14_TransformableP", "plainValue"]
+- ["9HandyJSON14_TransformableP", "transform"]
+depends-nominal:
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "9HandyJSON18_BuiltInBridgeTypeP"
+- !private "9HandyJSON22_ExtendCustomBasicTypeP"
+- !private "9HandyJSON22_ExtendCustomModelTypeP"
+- "9HandyJSON11_MeasurableP"
+- !private "9HandyJSON16_RawEnumProtocolP"
+- "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/HandyJSON/HandyJSON-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/HandyJSON.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "035677613206357ea4a272dcd588e46b"

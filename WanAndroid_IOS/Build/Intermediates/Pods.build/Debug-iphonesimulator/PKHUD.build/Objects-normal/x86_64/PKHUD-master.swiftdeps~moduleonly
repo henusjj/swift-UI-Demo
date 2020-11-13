@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "04d545ae3b655e05236aafd5f7dcf404"
+build_time: [1605145290, 459232000]
+inputs:
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/FrameView.swift": [1604632978, 467120930]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/HUD.swift": [1604632978, 476329349]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUD.swift": [1604632978, 467930425]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDAnimating.swift": [1604632978, 464303435]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDAnimation.swift": [1604632978, 461795832]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDAssets.swift": [1604632978, 471623267]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDErrorView.swift": [1604632978, 503606443]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDProgressView.swift": [1604632978, 479584184]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDRotatingImageView.swift": [1604632978, 477043046]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDSquareBaseView.swift": [1604632978, 502895906]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDSuccessView.swift": [1604632978, 469688738]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDSystemActivityIndicatorView.swift": [1604632978, 460764371]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDTextView.swift": [1604632978, 475278853]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUDWideBaseView.swift": [1604632978, 473577346]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/Window.swift": [1604632978, 478300405]
+  "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/WindowRootViewController.swift": [1604632978, 478974382]

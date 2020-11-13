@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HUDContentType"
+- "HUD"
+provides-nominal:
+- "5PKHUD14HUDContentTypeO"
+- "5PKHUD3HUDC"
+provides-member:
+- ["5PKHUD14HUDContentTypeO", ""]
+- ["5PKHUD3HUDC", ""]
+provides-dynamic-lookup:
+- "allowsInteraction"
+- "contentView"
+- "deregisterFromKeyboardNotifications"
+- "dimsBackground"
+- "flash"
+- "hide"
+- "isVisible"
+- "leadingMargin"
+- "registerForKeyboardNotifications"
+- "show"
+- "trailingMargin"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "HUD"
+- "HUDContentType"
+- !private "PKHUD"
+- !private "PKHUDErrorView"
+- !private "PKHUDProgressView"
+- !private "PKHUDRotatingImageView"
+- !private "PKHUDSquareBaseView"
+- !private "PKHUDSuccessView"
+- !private "PKHUDSystemActivityIndicatorView"
+- !private "PKHUDTextView"
+- "String"
+- "TimeInterval"
+- "UIImage"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "deregisterFromKeyboardNotifications"]
+- !private ["s7CVarArgP", "dimsBackground"]
+- !private ["s7CVarArgP", "hide"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isVisible"]
+- !private ["s7CVarArgP", "leadingMargin"]
+- !private ["s7CVarArgP", "registerForKeyboardNotifications"]
+- !private ["s7CVarArgP", "sharedHUD"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "trailingMargin"]
+- !private ["s7CVarArgP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "deregisterFromKeyboardNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "dimsBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "hide"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingMargin"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForKeyboardNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedHUD"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "trailingMargin"]
+- !private ["s28CustomDebugStringConvertibleP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "deregisterFromKeyboardNotifications"]
+- !private ["s23CustomStringConvertibleP", "dimsBackground"]
+- !private ["s23CustomStringConvertibleP", "hide"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isVisible"]
+- !private ["s23CustomStringConvertibleP", "leadingMargin"]
+- !private ["s23CustomStringConvertibleP", "registerForKeyboardNotifications"]
+- !private ["s23CustomStringConvertibleP", "sharedHUD"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "trailingMargin"]
+- !private ["s23CustomStringConvertibleP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["SQ", "contentView"]
+- !private ["SQ", "deregisterFromKeyboardNotifications"]
+- !private ["SQ", "dimsBackground"]
+- !private ["SQ", "hide"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isVisible"]
+- !private ["SQ", "leadingMargin"]
+- !private ["SQ", "registerForKeyboardNotifications"]
+- !private ["SQ", "sharedHUD"]
+- !private ["SQ", "show"]
+- !private ["SQ", "trailingMargin"]
+- !private ["SQ", "userInteractionOnUnderlyingViewsEnabled"]
+- ["5PKHUD3HUDC", "Bool"]
+- ["5PKHUD3HUDC", "CGFloat"]
+- !private ["5PKHUD3HUDC", "HUD"]
+- ["5PKHUD3HUDC", "HUDContentType"]
+- !private ["5PKHUD3HUDC", "PKHUD"]
+- !private ["5PKHUD3HUDC", "PKHUDErrorView"]
+- !private ["5PKHUD3HUDC", "PKHUDProgressView"]
+- !private ["5PKHUD3HUDC", "PKHUDRotatingImageView"]
+- !private ["5PKHUD3HUDC", "PKHUDSquareBaseView"]
+- !private ["5PKHUD3HUDC", "PKHUDSuccessView"]
+- !private ["5PKHUD3HUDC", "PKHUDSystemActivityIndicatorView"]
+- !private ["5PKHUD3HUDC", "PKHUDTextView"]
+- ["5PKHUD3HUDC", "TimeInterval"]
+- ["5PKHUD3HUDC", "UIView"]
+- ["5PKHUD3HUDC", "Void"]
+- ["5PKHUD3HUDC", "allowsInteraction"]
+- !private ["5PKHUD3HUDC", "contentView"]
+- ["5PKHUD3HUDC", "deinit"]
+- ["5PKHUD3HUDC", "deregisterFromKeyboardNotifications"]
+- ["5PKHUD3HUDC", "dimsBackground"]
+- ["5PKHUD3HUDC", "flash"]
+- ["5PKHUD3HUDC", "hide"]
+- ["5PKHUD3HUDC", "init"]
+- ["5PKHUD3HUDC", "isVisible"]
+- ["5PKHUD3HUDC", "leadingMargin"]
+- ["5PKHUD3HUDC", "registerForKeyboardNotifications"]
+- ["5PKHUD3HUDC", "show"]
+- ["5PKHUD3HUDC", "trailingMargin"]
+- ["5PKHUD14HUDContentTypeO", "String"]
+- ["5PKHUD14HUDContentTypeO", "UIImage"]
+- ["5PKHUD14HUDContentTypeO", "UIView"]
+- ["5PKHUD14HUDContentTypeO", "customView"]
+- ["5PKHUD14HUDContentTypeO", "error"]
+- ["5PKHUD14HUDContentTypeO", "image"]
+- ["5PKHUD14HUDContentTypeO", "label"]
+- ["5PKHUD14HUDContentTypeO", "labeledError"]
+- ["5PKHUD14HUDContentTypeO", "labeledImage"]
+- ["5PKHUD14HUDContentTypeO", "labeledProgress"]
+- ["5PKHUD14HUDContentTypeO", "labeledRotatingImage"]
+- ["5PKHUD14HUDContentTypeO", "labeledSuccess"]
+- ["5PKHUD14HUDContentTypeO", "progress"]
+- ["5PKHUD14HUDContentTypeO", "rotatingImage"]
+- ["5PKHUD14HUDContentTypeO", "success"]
+- ["5PKHUD14HUDContentTypeO", "systemActivity"]
+- !private ["SH", "contentView"]
+- !private ["SH", "deregisterFromKeyboardNotifications"]
+- !private ["SH", "dimsBackground"]
+- !private ["SH", "hide"]
+- !private ["SH", "init"]
+- !private ["SH", "isVisible"]
+- !private ["SH", "leadingMargin"]
+- !private ["SH", "registerForKeyboardNotifications"]
+- !private ["SH", "sharedHUD"]
+- !private ["SH", "show"]
+- !private ["SH", "trailingMargin"]
+- !private ["SH", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSObjectC", "contentView"]
+- !private ["So8NSObjectC", "deregisterFromKeyboardNotifications"]
+- !private ["So8NSObjectC", "dimsBackground"]
+- !private ["So8NSObjectC", "hide"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isVisible"]
+- !private ["So8NSObjectC", "leadingMargin"]
+- !private ["So8NSObjectC", "registerForKeyboardNotifications"]
+- !private ["So8NSObjectC", "sharedHUD"]
+- !private ["So8NSObjectC", "show"]
+- !private ["So8NSObjectC", "trailingMargin"]
+- !private ["So8NSObjectC", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["So8NSObjectP", "contentView"]
+- !private ["So8NSObjectP", "deregisterFromKeyboardNotifications"]
+- !private ["So8NSObjectP", "dimsBackground"]
+- !private ["So8NSObjectP", "hide"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isVisible"]
+- !private ["So8NSObjectP", "leadingMargin"]
+- !private ["So8NSObjectP", "registerForKeyboardNotifications"]
+- !private ["So8NSObjectP", "sharedHUD"]
+- !private ["So8NSObjectP", "show"]
+- !private ["So8NSObjectP", "trailingMargin"]
+- !private ["So8NSObjectP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["5PKHUDAAC", "contentView"]
+- !private ["5PKHUDAAC", "deregisterFromKeyboardNotifications"]
+- !private ["5PKHUDAAC", "dimsBackground"]
+- !private ["5PKHUDAAC", "hide"]
+- !private ["5PKHUDAAC", "isVisible"]
+- !private ["5PKHUDAAC", "leadingMargin"]
+- !private ["5PKHUDAAC", "registerForKeyboardNotifications"]
+- !private ["5PKHUDAAC", "sharedHUD"]
+- !private ["5PKHUDAAC", "show"]
+- !private ["5PKHUDAAC", "trailingMargin"]
+- !private ["5PKHUDAAC", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["5PKHUD14PKHUDAnimatingP", "init"]
+- !private ["5PKHUD14PKHUDErrorViewC", "deinit"]
+- !private ["5PKHUD14PKHUDErrorViewC", "init"]
+- !private ["5PKHUD17PKHUDProgressViewC", "deinit"]
+- !private ["5PKHUD17PKHUDProgressViewC", "init"]
+- !private ["5PKHUD22PKHUDRotatingImageViewC", "deinit"]
+- !private ["5PKHUD22PKHUDRotatingImageViewC", "init"]
+- !private ["5PKHUD19PKHUDSquareBaseViewC", "deinit"]
+- !private ["5PKHUD19PKHUDSquareBaseViewC", "init"]
+- !private ["5PKHUD16PKHUDSuccessViewC", "deinit"]
+- !private ["5PKHUD16PKHUDSuccessViewC", "init"]
+- !private ["5PKHUD32PKHUDSystemActivityIndicatorViewC", "deinit"]
+- !private ["5PKHUD32PKHUDSystemActivityIndicatorViewC", "init"]
+- !private ["5PKHUD13PKHUDTextViewC", "deinit"]
+- !private ["5PKHUD13PKHUDTextViewC", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So6UIViewC", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deregisterFromKeyboardNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dimsBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingMargin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForKeyboardNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedHUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingMargin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deregisterFromKeyboardNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dimsBackground"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hide"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingMargin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerForKeyboardNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedHUD"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "show"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingMargin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- "5PKHUD3HUDC"
+- "5PKHUD14HUDContentTypeO"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "5PKHUDAAC"
+- !private "5PKHUD14PKHUDAnimatingP"
+- !private "5PKHUD14PKHUDErrorViewC"
+- !private "5PKHUD17PKHUDProgressViewC"
+- !private "5PKHUD22PKHUDRotatingImageViewC"
+- !private "5PKHUD19PKHUDSquareBaseViewC"
+- !private "5PKHUD16PKHUDSuccessViewC"
+- !private "5PKHUD32PKHUDSystemActivityIndicatorViewC"
+- !private "5PKHUD13PKHUDTextViewC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f5456b018cbfae46d37d25fd9a038cfa"

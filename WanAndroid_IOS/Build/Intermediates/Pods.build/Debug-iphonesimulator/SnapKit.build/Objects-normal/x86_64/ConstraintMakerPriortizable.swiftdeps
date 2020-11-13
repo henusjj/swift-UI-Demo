@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintMakerPriortizable"
+provides-nominal:
+- "7SnapKit27ConstraintMakerPriortizableC"
+provides-member:
+- ["7SnapKit27ConstraintMakerPriortizableC", ""]
+provides-dynamic-lookup:
+- "priority"
+- "priorityHigh"
+- "priorityLow"
+- "priorityMedium"
+- "priorityRequired"
+depends-top-level:
+- "AssignmentPrecedence"
+- "ConstraintMakerFinalizable"
+- "ConstraintMakerPriortizable"
+- "ConstraintPriority"
+- "ConstraintPriorityTarget"
+depends-member:
+- !private ["SL", "high"]
+- !private ["SL", "low"]
+- !private ["SL", "medium"]
+- !private ["SL", "required"]
+- !private ["SL", "value"]
+- !private ["7SnapKit21ConstraintDescriptionC", "priority"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "ConstraintMakerFinalizable"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "ConstraintPriority"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "ConstraintPriorityTarget"]
+- ["7SnapKit26ConstraintMakerFinalizableC", ""]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "description"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "init"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "priority"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "priorityHigh"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "priorityLow"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "priorityMedium"]
+- ["7SnapKit26ConstraintMakerFinalizableC", "priorityRequired"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "ConstraintMakerFinalizable"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "ConstraintPriority"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "ConstraintPriorityTarget"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "deinit"]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "description"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "init"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "priority"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "priorityHigh"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "priorityLow"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "priorityMedium"]
+- ["7SnapKit27ConstraintMakerPriortizableC", "priorityRequired"]
+- !private ["7SnapKit18ConstraintPriorityV", "high"]
+- !private ["7SnapKit18ConstraintPriorityV", "low"]
+- !private ["7SnapKit18ConstraintPriorityV", "medium"]
+- !private ["7SnapKit18ConstraintPriorityV", "required"]
+- !private ["7SnapKit18ConstraintPriorityV", "value"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "high"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "low"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "medium"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "required"]
+- !private ["SQ", "high"]
+- !private ["SQ", "low"]
+- !private ["SQ", "medium"]
+- !private ["SQ", "required"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByFloatLiteralP", "high"]
+- !private ["s25ExpressibleByFloatLiteralP", "low"]
+- !private ["s25ExpressibleByFloatLiteralP", "medium"]
+- !private ["s25ExpressibleByFloatLiteralP", "required"]
+- !private ["s25ExpressibleByFloatLiteralP", "value"]
+- !private ["Sf", "deinit"]
+- !private ["Sx", "high"]
+- !private ["Sx", "low"]
+- !private ["Sx", "medium"]
+- !private ["Sx", "required"]
+- !private ["Sx", "value"]
+depends-nominal:
+- !private "SL"
+- !private "7SnapKit21ConstraintDescriptionC"
+- "7SnapKit26ConstraintMakerFinalizableC"
+- "7SnapKit27ConstraintMakerPriortizableC"
+- !private "7SnapKit18ConstraintPriorityV"
+- !private "7SnapKit24ConstraintPriorityTargetP"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "Sf"
+- !private "Sx"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a5895490d80f7f7b36fb5299f73e054e"

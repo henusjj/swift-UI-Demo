@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FieldDescriptorKind"
+- "FieldDescriptor"
+- "_FieldDescriptor"
+- "FieldRecord"
+- "_FieldRecord"
+provides-nominal:
+- "9HandyJSON19FieldDescriptorKindO"
+- "9HandyJSON15FieldDescriptorV"
+- "9HandyJSON16_FieldDescriptorV"
+- "9HandyJSON11FieldRecordV"
+- "9HandyJSON12_FieldRecordV"
+provides-member:
+- ["9HandyJSON19FieldDescriptorKindO", ""]
+- ["9HandyJSON15FieldDescriptorV", ""]
+- ["9HandyJSON16_FieldDescriptorV", ""]
+- ["9HandyJSON11FieldRecordV", ""]
+- ["9HandyJSON12_FieldRecordV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- "=="
+- "FieldDescriptor"
+- "FieldDescriptorKind"
+- "FieldRecord"
+- "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "IntegerLiteralType"
+- "PointerType"
+- "String"
+- !private "StringLiteralType"
+- "UInt16"
+- "UInt8"
+- "UnsafePointer"
+- "_FieldDescriptor"
+- "_FieldRecord"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "FieldRecord"]
+- !private ["SQ", "Int"]
+- ["SQ", "Pointee"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UnsafePointer"]
+- ["SQ", ""]
+- ["SQ", "_Default_Pointee"]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "numFields"]
+- !private ["SQ", "pointee"]
+- ["SQ", "pointer"]
+- ["SQ", "rawValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["9HandyJSON15FieldDescriptorV", "=="]
+- ["9HandyJSON15FieldDescriptorV", "FieldRecord"]
+- ["9HandyJSON15FieldDescriptorV", "Int"]
+- ["9HandyJSON15FieldDescriptorV", "Pointee"]
+- ["9HandyJSON15FieldDescriptorV", "UnsafePointer"]
+- ["9HandyJSON15FieldDescriptorV", "_Default_Pointee"]
+- ["9HandyJSON15FieldDescriptorV", "_FieldDescriptor"]
+- !private ["9HandyJSON15FieldDescriptorV", "_FieldRecord"]
+- ["9HandyJSON15FieldDescriptorV", "deinit"]
+- ["9HandyJSON15FieldDescriptorV", "fieldRecordSize"]
+- ["9HandyJSON15FieldDescriptorV", "fieldRecords"]
+- ["9HandyJSON15FieldDescriptorV", "init"]
+- ["9HandyJSON15FieldDescriptorV", "numFields"]
+- ["9HandyJSON15FieldDescriptorV", "pointer"]
+- ["9HandyJSON19FieldDescriptorKindO", "=="]
+- ["9HandyJSON19FieldDescriptorKindO", "Class"]
+- ["9HandyJSON19FieldDescriptorKindO", "ClassProtocol"]
+- ["9HandyJSON19FieldDescriptorKindO", "Enum"]
+- ["9HandyJSON19FieldDescriptorKindO", "MultiPayloadEnum"]
+- ["9HandyJSON19FieldDescriptorKindO", "ObjCClass"]
+- ["9HandyJSON19FieldDescriptorKindO", "ObjCProtocol"]
+- ["9HandyJSON19FieldDescriptorKindO", "Protocol"]
+- ["9HandyJSON19FieldDescriptorKindO", "RawValue"]
+- ["9HandyJSON19FieldDescriptorKindO", "Struct"]
+- ["9HandyJSON19FieldDescriptorKindO", "_Default_RawValue"]
+- ["9HandyJSON19FieldDescriptorKindO", "_rawHashValue"]
+- ["9HandyJSON19FieldDescriptorKindO", "deinit"]
+- ["9HandyJSON19FieldDescriptorKindO", "hash"]
+- ["9HandyJSON19FieldDescriptorKindO", "hashValue"]
+- ["9HandyJSON19FieldDescriptorKindO", "init"]
+- ["9HandyJSON19FieldDescriptorKindO", "rawValue"]
+- ["9HandyJSON11FieldRecordV", "=="]
+- ["9HandyJSON11FieldRecordV", "Int"]
+- ["9HandyJSON11FieldRecordV", "Pointee"]
+- ["9HandyJSON11FieldRecordV", "String"]
+- ["9HandyJSON11FieldRecordV", "UInt8"]
+- ["9HandyJSON11FieldRecordV", "UnsafePointer"]
+- ["9HandyJSON11FieldRecordV", "_Default_Pointee"]
+- ["9HandyJSON11FieldRecordV", "_FieldRecord"]
+- ["9HandyJSON11FieldRecordV", "deinit"]
+- ["9HandyJSON11FieldRecordV", "fieldName"]
+- ["9HandyJSON11FieldRecordV", "fieldRecordFlags"]
+- ["9HandyJSON11FieldRecordV", "init"]
+- ["9HandyJSON11FieldRecordV", "mangledTypeName"]
+- ["9HandyJSON11FieldRecordV", "pointer"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "pointee"]
+- ["SH", "rawValue"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["9HandyJSON23IntegerPropertyProtocolP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- ["9HandyJSON11PointerTypeP", "=="]
+- !private ["9HandyJSON11PointerTypeP", "FieldRecord"]
+- !private ["9HandyJSON11PointerTypeP", "Int"]
+- ["9HandyJSON11PointerTypeP", "Pointee"]
+- !private ["9HandyJSON11PointerTypeP", "String"]
+- !private ["9HandyJSON11PointerTypeP", "UnsafePointer"]
+- ["9HandyJSON11PointerTypeP", ""]
+- ["9HandyJSON11PointerTypeP", "_Default_Pointee"]
+- !private ["9HandyJSON11PointerTypeP", "init"]
+- !private ["9HandyJSON11PointerTypeP", "numFields"]
+- ["9HandyJSON11PointerTypeP", "pointer"]
+- !private ["Sk", "map"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9HandyJSON17UTF8InitializableP", "init"]
+- !private ["SP", "init"]
+- !private ["SP", "pointee"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["9HandyJSON16_FieldDescriptorV", "FieldDescriptorKind"]
+- ["9HandyJSON16_FieldDescriptorV", "Int16"]
+- ["9HandyJSON16_FieldDescriptorV", "Int32"]
+- ["9HandyJSON16_FieldDescriptorV", "fieldDescriptorKind"]
+- ["9HandyJSON16_FieldDescriptorV", "fieldRecordSize"]
+- ["9HandyJSON16_FieldDescriptorV", "init"]
+- ["9HandyJSON16_FieldDescriptorV", "mangledTypeNameOffset"]
+- ["9HandyJSON16_FieldDescriptorV", "numFields"]
+- ["9HandyJSON16_FieldDescriptorV", "superClassOffset"]
+- ["9HandyJSON12_FieldRecordV", "Int32"]
+- ["9HandyJSON12_FieldRecordV", "fieldNameOffset"]
+- ["9HandyJSON12_FieldRecordV", "fieldRecordFlags"]
+- ["9HandyJSON12_FieldRecordV", "init"]
+- ["9HandyJSON12_FieldRecordV", "mangledTypeNameOffset"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["9HandyJSON14_TransformableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9HandyJSON15FieldDescriptorV"
+- "9HandyJSON19FieldDescriptorKindO"
+- "9HandyJSON11FieldRecordV"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "9HandyJSON23IntegerPropertyProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- "9HandyJSON11PointerTypeP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9HandyJSON17UTF8InitializableP"
+- !private "SP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "9HandyJSON16_FieldDescriptorV"
+- "9HandyJSON12_FieldRecordV"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/HandyJSON/HandyJSON-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/HandyJSON.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27287bf3c4bb7ba1859e2a514aa28b5d"

@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PKHUDAnimation"
+provides-nominal:
+- "5PKHUD14PKHUDAnimationC"
+provides-member:
+- ["5PKHUD14PKHUDAnimationC", ""]
+provides-dynamic-lookup:
+- "continuousRotation"
+- "discreteRotation"
+depends-top-level:
+- "*"
+- "/"
+- "AssignmentPrecedence"
+- "CAAnimation"
+- "CABasicAnimation"
+- "CAKeyframeAnimation"
+- "Float"
+- "FloatLiteralType"
+- "INT_MAX"
+- "IntegerLiteralType"
+- "NSNumber"
+- "PKHUDAnimation"
+- "StringLiteralType"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "pi"]
+- ["SB", "init"]
+- ["SB", "pi"]
+- ["Sz", "pi"]
+- ["So8CAActionP", "calculationMode"]
+- ["So8CAActionP", "duration"]
+- ["So8CAActionP", "fromValue"]
+- ["So8CAActionP", "init"]
+- ["So8CAActionP", "keyTimes"]
+- ["So8CAActionP", "repeatCount"]
+- ["So8CAActionP", "toValue"]
+- ["So8CAActionP", "values"]
+- ["So11CAAnimationC", "calculationMode"]
+- ["So11CAAnimationC", "duration"]
+- ["So11CAAnimationC", "fromValue"]
+- ["So11CAAnimationC", "init"]
+- ["So11CAAnimationC", "keyTimes"]
+- ["So11CAAnimationC", "repeatCount"]
+- ["So11CAAnimationC", "toValue"]
+- ["So11CAAnimationC", "values"]
+- ["So26CAAnimationCalculationModea", "discrete"]
+- ["So16CABasicAnimationC", "duration"]
+- ["So16CABasicAnimationC", "fromValue"]
+- ["So16CABasicAnimationC", "init"]
+- ["So16CABasicAnimationC", "repeatCount"]
+- ["So16CABasicAnimationC", "toValue"]
+- ["So19CAKeyframeAnimationC", "calculationMode"]
+- ["So19CAKeyframeAnimationC", "duration"]
+- ["So19CAKeyframeAnimationC", "init"]
+- ["So19CAKeyframeAnimationC", "keyTimes"]
+- ["So19CAKeyframeAnimationC", "repeatCount"]
+- ["So19CAKeyframeAnimationC", "values"]
+- ["So13CAMediaTimingP", "calculationMode"]
+- ["So13CAMediaTimingP", "duration"]
+- ["So13CAMediaTimingP", "fromValue"]
+- ["So13CAMediaTimingP", "init"]
+- ["So13CAMediaTimingP", "keyTimes"]
+- ["So13CAMediaTimingP", "repeatCount"]
+- ["So13CAMediaTimingP", "toValue"]
+- ["So13CAMediaTimingP", "values"]
+- ["So19CAPropertyAnimationC", "calculationMode"]
+- ["So19CAPropertyAnimationC", "duration"]
+- ["So19CAPropertyAnimationC", "fromValue"]
+- ["So19CAPropertyAnimationC", "init"]
+- ["So19CAPropertyAnimationC", "keyTimes"]
+- ["So19CAPropertyAnimationC", "repeatCount"]
+- ["So19CAPropertyAnimationC", "toValue"]
+- ["So19CAPropertyAnimationC", "values"]
+- ["12CoreGraphics7CGFloatV", "pi"]
+- ["s7CVarArgP", "calculationMode"]
+- ["s7CVarArgP", "duration"]
+- ["s7CVarArgP", "fromValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "keyTimes"]
+- ["s7CVarArgP", "pi"]
+- ["s7CVarArgP", "repeatCount"]
+- ["s7CVarArgP", "toValue"]
+- ["s7CVarArgP", "values"]
+- ["SL", "init"]
+- ["SL", "pi"]
+- ["s28CustomDebugStringConvertibleP", "calculationMode"]
+- ["s28CustomDebugStringConvertibleP", "duration"]
+- ["s28CustomDebugStringConvertibleP", "fromValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "keyTimes"]
+- ["s28CustomDebugStringConvertibleP", "pi"]
+- ["s28CustomDebugStringConvertibleP", "repeatCount"]
+- ["s28CustomDebugStringConvertibleP", "toValue"]
+- ["s28CustomDebugStringConvertibleP", "values"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "pi"]
+- ["s23CustomStringConvertibleP", "calculationMode"]
+- ["s23CustomStringConvertibleP", "duration"]
+- ["s23CustomStringConvertibleP", "fromValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "keyTimes"]
+- ["s23CustomStringConvertibleP", "pi"]
+- ["s23CustomStringConvertibleP", "repeatCount"]
+- ["s23CustomStringConvertibleP", "toValue"]
+- ["s23CustomStringConvertibleP", "values"]
+- ["So9NSDecimala", "pi"]
+- ["Se", "init"]
+- ["Se", "pi"]
+- ["Sd", "pi"]
+- ["SE", "init"]
+- ["SE", "pi"]
+- ["SQ", "calculationMode"]
+- ["SQ", "discrete"]
+- ["SQ", "duration"]
+- ["SQ", "fromValue"]
+- ["SQ", "init"]
+- ["SQ", "keyTimes"]
+- ["SQ", "pi"]
+- ["SQ", "repeatCount"]
+- ["SQ", "toValue"]
+- ["SQ", "values"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "pi"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "pi"]
+- ["s17FixedWidthIntegerP", "pi"]
+- ["Sf", "init"]
+- ["Sf", "pi"]
+- ["s7Float80V", "pi"]
+- ["SF", "init"]
+- ["SF", "pi"]
+- ["SH", "calculationMode"]
+- ["SH", "discrete"]
+- ["SH", "duration"]
+- ["SH", "fromValue"]
+- ["SH", "init"]
+- ["SH", "keyTimes"]
+- ["SH", "pi"]
+- ["SH", "repeatCount"]
+- ["SH", "toValue"]
+- ["SH", "values"]
+- ["Si", "pi"]
+- ["s5Int16V", "pi"]
+- ["s5Int32V", "pi"]
+- ["s5Int64V", "pi"]
+- ["s4Int8V", "pi"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "pi"]
+- ["10Foundation11MeasurementV", "pi"]
+- ["s10MirrorPathP", "pi"]
+- ["So8NSCodingP", "calculationMode"]
+- ["So8NSCodingP", "duration"]
+- ["So8NSCodingP", "fromValue"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "keyTimes"]
+- ["So8NSCodingP", "repeatCount"]
+- ["So8NSCodingP", "toValue"]
+- ["So8NSCodingP", "values"]
+- ["So9NSCopyingP", "calculationMode"]
+- ["So9NSCopyingP", "duration"]
+- ["So9NSCopyingP", "fromValue"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "keyTimes"]
+- ["So9NSCopyingP", "repeatCount"]
+- ["So9NSCopyingP", "toValue"]
+- ["So9NSCopyingP", "values"]
+- ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "calculationMode"]
+- ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "fromValue"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "keyTimes"]
+- ["So8NSObjectC", "repeatCount"]
+- ["So8NSObjectC", "toValue"]
+- ["So8NSObjectC", "values"]
+- ["So8NSObjectP", "calculationMode"]
+- ["So8NSObjectP", "duration"]
+- ["So8NSObjectP", "fromValue"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "keyTimes"]
+- ["So8NSObjectP", "repeatCount"]
+- ["So8NSObjectP", "toValue"]
+- ["So8NSObjectP", "values"]
+- ["So14NSSecureCodingP", "calculationMode"]
+- ["So14NSSecureCodingP", "duration"]
+- ["So14NSSecureCodingP", "fromValue"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "keyTimes"]
+- ["So14NSSecureCodingP", "repeatCount"]
+- ["So14NSSecureCodingP", "toValue"]
+- ["So14NSSecureCodingP", "values"]
+- ["So7NSValueC", "init"]
+- ["Sj", "init"]
+- ["Sj", "pi"]
+- ["5PKHUD14PKHUDAnimationC", "CAAnimation"]
+- ["5PKHUD14PKHUDAnimationC", "CABasicAnimation"]
+- ["5PKHUD14PKHUDAnimationC", "CAKeyframeAnimation"]
+- ["5PKHUD14PKHUDAnimationC", "Float"]
+- ["5PKHUD14PKHUDAnimationC", "INT_MAX"]
+- ["5PKHUD14PKHUDAnimationC", "NSNumber"]
+- ["5PKHUD14PKHUDAnimationC", "continuousRotation"]
+- ["5PKHUD14PKHUDAnimationC", "deinit"]
+- ["5PKHUD14PKHUDAnimationC", "discreteRotation"]
+- ["5PKHUD14PKHUDAnimationC", "init"]
+- ["SY", "discrete"]
+- ["10Foundation20ReferenceConvertibleP", "pi"]
+- ["s10SIMDScalarP", "init"]
+- ["s10SIMDScalarP", "pi"]
+- ["7Combine32SchedulerTimeIntervalConvertibleP", "pi"]
+- ["SZ", "pi"]
+- ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "pi"]
+- ["So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV", "pi"]
+- ["So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV", "pi"]
+- ["So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV", "pi"]
+- ["Sx", "init"]
+- ["Sx", "pi"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "pi"]
+- ["Su", "pi"]
+- ["s6UInt16V", "pi"]
+- ["s6UInt32V", "pi"]
+- ["s6UInt64V", "pi"]
+- ["s5UInt8V", "pi"]
+- ["SU", "pi"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "pi"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "pi"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "pi"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- ["s35_HasCustomAnyHashableRepresentationP", "discrete"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculationMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fromValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "keyTimes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "repeatCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "values"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "calculationMode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fromValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyTimes"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "repeatCount"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "values"]
+- ["s21_ObjectiveCBridgeableP", "discrete"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "pi"]
+- ["s14_StringElementP", "pi"]
+- ["s20_SwiftNewtypeWrapperP", "discrete"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SB"
+- "Sz"
+- "So8CAActionP"
+- "So11CAAnimationC"
+- "So26CAAnimationCalculationModea"
+- "So16CABasicAnimationC"
+- "So19CAKeyframeAnimationC"
+- "So13CAMediaTimingP"
+- "So19CAPropertyAnimationC"
+- "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So9NSDecimala"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "s7Float80V"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- "10Foundation11MeasurementV"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7NSValueC"
+- "Sj"
+- "5PKHUD14PKHUDAnimationC"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "7Combine32SchedulerTimeIntervalConvertibleP"
+- "SZ"
+- "s13SignedNumericP"
+- "So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV"
+- "So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV"
+- "So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV"
+- "Sx"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c8e66592782732d061072de72fcf0cf9"

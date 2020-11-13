@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WanAndroid_IOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WanAndroid_IOS
+
+  target 'WanAndroid_IOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WanAndroid_IOSUITests' do
+    # Pods for testing
+  end
+
+
+  pod 'Alamofire'  #网络
+  pod 'HandyJSON'
+#自动布局框架，类似于Masonry
+  pod 'SnapKit'
+#加载动画	
+  pod 'PKHUD'
+#提示框
+  pod 'Toaster'
+end

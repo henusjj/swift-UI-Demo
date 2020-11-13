@@ -1,0 +1,667 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_ExtendCustomModelType"
+provides-nominal:
+- "9HandyJSON22_ExtendCustomModelTypeP"
+provides-member:
+- ["9HandyJSON22_ExtendCustomModelTypeP", ""]
+- ["So8NSObjectC", ""]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "willStartMapping"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "mapping"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "didFinishMapping"]
+- ["So8NSObjectC", "createInstance"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_transform"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_transform"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_transform"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_plainValue"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_serializeAny"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_serializeModelObject"]
+provides-dynamic-lookup:
+- "createInstance"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- !private ">"
+- !private "AnyRandomAccessCollection"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "HandyJSONConfiguration"
+- "HelpingMapper"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "InternalLogger"
+- "Mirror"
+- !private "NSNull"
+- "NSObject"
+- "PropertyInfo"
+- "String"
+- !private "StringLiteralType"
+- "_ExtendCustomModelType"
+- "_Transformable"
+- !private "assignProperty"
+- !private "convertKeyIfNeeded"
+- !private "convertValue"
+- !private "extensions"
+- !private "getProperties"
+- !private "getRawValueFrom"
+- !private "merge"
+- !private "readAllChildrenFrom"
+- !private "type"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9HandyJSON13AnyExtensionsP", "takeValue"]
+- !private ["9HandyJSON13AnyExtensionsP", "write"]
+- !private ["s25AnyRandomAccessCollectionV", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createInstance"]
+- !private ["s7CVarArgP", "findValueBy"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "value"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "findValueBy"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "advanced"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "findValueBy"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "displayStyle"]
+- !private ["s17CustomReflectableP", "findValueBy"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "key"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createInstance"]
+- !private ["s23CustomStringConvertibleP", "displayStyle"]
+- !private ["s23CustomStringConvertibleP", "findValueBy"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "findValueBy"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "key"]
+- !private ["Se", "last"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "key"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "offset"]
+- !private ["9HandyJSON8PropertyV11DescriptionV", "type"]
+- !private ["9HandyJSON18DeserializeOptionsV", "caseInsensitive"]
+- !private ["9HandyJSON18DeserializeOptionsV", "contains"]
+- !private ["9HandyJSON18DeserializeOptionsV", "deinit"]
+- !private ["SD", "findValueBy"]
+- !private ["SD", "forEach"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["s6MirrorV12DisplayStyleO", "class"]
+- ["s6MirrorV12DisplayStyleO", "struct"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "findValueBy"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "key"]
+- !private ["SE", "last"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- !private ["SQ", "caseInsensitive"]
+- ["SQ", "class"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createInstance"]
+- !private ["SQ", "findValueBy"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "key"]
+- !private ["SQ", "last"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "map"]
+- !private ["SQ", "setValue"]
+- ["SQ", "struct"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "caseInsensitive"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "findValueBy"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "key"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["9HandyJSON0A17JSONConfigurationV", "deserializeOptions"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- ["SH", "class"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "createInstance"]
+- !private ["SH", "findValueBy"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "key"]
+- !private ["SH", "last"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "map"]
+- !private ["SH", "setValue"]
+- ["SH", "struct"]
+- !private ["SH", "subscript"]
+- !private ["SH", "value"]
+- !private ["9HandyJSON13HelpingMapperC", "getMappingHandler"]
+- !private ["9HandyJSON13HelpingMapperC", "init"]
+- !private ["9HandyJSON13HelpingMapperC", "propertyExcluded"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["9HandyJSON23IntegerPropertyProtocolP", "init"]
+- !private ["9HandyJSON14InternalLoggerV", "logDebug"]
+- !private ["9HandyJSON14InternalLoggerV", "logError"]
+- !private ["9HandyJSON14InternalLoggerV", "logVerbose"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["9HandyJSON11MappingPathV", "segments"]
+- !private ["9HandyJSON22MappingPropertyHandlerC", "assignmentClosure"]
+- !private ["9HandyJSON22MappingPropertyHandlerC", "mappingPaths"]
+- !private ["9HandyJSON22MappingPropertyHandlerC", "takeValueClosure"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "displayStyle"]
+- !private ["s6MirrorV", "init"]
+- !private ["s6MirrorV", "superclassMirror"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "forEach"]
+- !private ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- ["So8NSObjectC", "NSObject"]
+- ["So8NSObjectC", "createInstance"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "createInstance"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "caseInsensitive"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["Sq", "key"]
+- !private ["9HandyJSON12PropertyInfoV", "address"]
+- !private ["9HandyJSON12PropertyInfoV", "bridged"]
+- !private ["9HandyJSON12PropertyInfoV", "init"]
+- !private ["9HandyJSON12PropertyInfoV", "key"]
+- !private ["9HandyJSON12PropertyInfoV", "type"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "caseInsensitive"]
+- !private ["SY", "contains"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "findValueBy"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "contains"]
+- !private ["s10SetAlgebraP", "caseInsensitive"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "init"]
+- !private ["SS", "lowercased"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "lowercased"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["9HandyJSON17UTF8InitializableP", "lowercased"]
+- !private ["Sp", "advanced"]
+- !private ["s22_AnyCollectionProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "append"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "contains"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "count"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "findValueBy"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "forEach"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "key"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "last"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "lowercased"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "map"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "subscript"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "HelpingMapper"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "Int"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "InternalLogger"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "Mirror"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "NSObject"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "PropertyInfo"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "String"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_ExtendCustomModelType"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_Transformable"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_plainValue"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_serializeAny"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_serializeModelObject"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "_transform"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "assignProperty"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "convertKeyIfNeeded"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "convertValue"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "didFinishMapping"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "getBridgedPropertyList"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "getProperties"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "getRawValueFrom"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "headPointer"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "init"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "isNSObjectType"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "mapping"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "merge"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "readAllChildrenFrom"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "type"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "willStartMapping"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "findValueBy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- ["9HandyJSON11_MeasurableP", "HelpingMapper"]
+- !private ["9HandyJSON11_MeasurableP", "Int"]
+- !private ["9HandyJSON11_MeasurableP", "InternalLogger"]
+- !private ["9HandyJSON11_MeasurableP", "Mirror"]
+- !private ["9HandyJSON11_MeasurableP", "NSObject"]
+- ["9HandyJSON11_MeasurableP", "PropertyInfo"]
+- ["9HandyJSON11_MeasurableP", "String"]
+- ["9HandyJSON11_MeasurableP", "_ExtendCustomModelType"]
+- ["9HandyJSON11_MeasurableP", "_Transformable"]
+- !private ["9HandyJSON11_MeasurableP", "_serializeAny"]
+- !private ["9HandyJSON11_MeasurableP", "_serializeModelObject"]
+- !private ["9HandyJSON11_MeasurableP", "_transform"]
+- !private ["9HandyJSON11_MeasurableP", "append"]
+- !private ["9HandyJSON11_MeasurableP", "assignProperty"]
+- !private ["9HandyJSON11_MeasurableP", "contains"]
+- !private ["9HandyJSON11_MeasurableP", "convertKeyIfNeeded"]
+- !private ["9HandyJSON11_MeasurableP", "convertValue"]
+- !private ["9HandyJSON11_MeasurableP", "count"]
+- ["9HandyJSON11_MeasurableP", "didFinishMapping"]
+- !private ["9HandyJSON11_MeasurableP", "findValueBy"]
+- !private ["9HandyJSON11_MeasurableP", "forEach"]
+- !private ["9HandyJSON11_MeasurableP", "getBridgedPropertyList"]
+- !private ["9HandyJSON11_MeasurableP", "getProperties"]
+- !private ["9HandyJSON11_MeasurableP", "getRawValueFrom"]
+- !private ["9HandyJSON11_MeasurableP", "headPointer"]
+- ["9HandyJSON11_MeasurableP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "isNSObjectType"]
+- !private ["9HandyJSON11_MeasurableP", "key"]
+- !private ["9HandyJSON11_MeasurableP", "last"]
+- !private ["9HandyJSON11_MeasurableP", "lowercased"]
+- !private ["9HandyJSON11_MeasurableP", "map"]
+- ["9HandyJSON11_MeasurableP", "mapping"]
+- !private ["9HandyJSON11_MeasurableP", "merge"]
+- !private ["9HandyJSON11_MeasurableP", "plainValue"]
+- !private ["9HandyJSON11_MeasurableP", "readAllChildrenFrom"]
+- !private ["9HandyJSON11_MeasurableP", "subscript"]
+- !private ["9HandyJSON11_MeasurableP", "transform"]
+- !private ["9HandyJSON11_MeasurableP", "type"]
+- ["9HandyJSON11_MeasurableP", "willStartMapping"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "findValueBy"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "key"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "advanced"]
+- ["9HandyJSON14_TransformableP", "HelpingMapper"]
+- !private ["9HandyJSON14_TransformableP", "Int"]
+- !private ["9HandyJSON14_TransformableP", "InternalLogger"]
+- !private ["9HandyJSON14_TransformableP", "Mirror"]
+- !private ["9HandyJSON14_TransformableP", "NSObject"]
+- ["9HandyJSON14_TransformableP", "PropertyInfo"]
+- ["9HandyJSON14_TransformableP", "String"]
+- ["9HandyJSON14_TransformableP", ""]
+- ["9HandyJSON14_TransformableP", "_ExtendCustomModelType"]
+- ["9HandyJSON14_TransformableP", "_Transformable"]
+- !private ["9HandyJSON14_TransformableP", "_serializeAny"]
+- !private ["9HandyJSON14_TransformableP", "_serializeModelObject"]
+- !private ["9HandyJSON14_TransformableP", "_transform"]
+- !private ["9HandyJSON14_TransformableP", "append"]
+- !private ["9HandyJSON14_TransformableP", "assignProperty"]
+- !private ["9HandyJSON14_TransformableP", "contains"]
+- !private ["9HandyJSON14_TransformableP", "convertKeyIfNeeded"]
+- !private ["9HandyJSON14_TransformableP", "convertValue"]
+- !private ["9HandyJSON14_TransformableP", "count"]
+- ["9HandyJSON14_TransformableP", "didFinishMapping"]
+- !private ["9HandyJSON14_TransformableP", "findValueBy"]
+- !private ["9HandyJSON14_TransformableP", "forEach"]
+- !private ["9HandyJSON14_TransformableP", "getBridgedPropertyList"]
+- !private ["9HandyJSON14_TransformableP", "getProperties"]
+- !private ["9HandyJSON14_TransformableP", "getRawValueFrom"]
+- !private ["9HandyJSON14_TransformableP", "headPointer"]
+- ["9HandyJSON14_TransformableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "isNSObjectType"]
+- !private ["9HandyJSON14_TransformableP", "key"]
+- !private ["9HandyJSON14_TransformableP", "last"]
+- !private ["9HandyJSON14_TransformableP", "lowercased"]
+- !private ["9HandyJSON14_TransformableP", "map"]
+- ["9HandyJSON14_TransformableP", "mapping"]
+- !private ["9HandyJSON14_TransformableP", "merge"]
+- !private ["9HandyJSON14_TransformableP", "plainValue"]
+- !private ["9HandyJSON14_TransformableP", "readAllChildrenFrom"]
+- !private ["9HandyJSON14_TransformableP", "subscript"]
+- !private ["9HandyJSON14_TransformableP", "transform"]
+- !private ["9HandyJSON14_TransformableP", "type"]
+- ["9HandyJSON14_TransformableP", "willStartMapping"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9HandyJSON13AnyExtensionsP"
+- !private "s25AnyRandomAccessCollectionV"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "9HandyJSON8PropertyV11DescriptionV"
+- !private "9HandyJSON18DeserializeOptionsV"
+- !private "SD"
+- "s6MirrorV12DisplayStyleO"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "9HandyJSON0A17JSONConfigurationV"
+- "SH"
+- !private "9HandyJSON13HelpingMapperC"
+- !private "Si"
+- !private "9HandyJSON23IntegerPropertyProtocolP"
+- !private "9HandyJSON14InternalLoggerV"
+- !private "s25LosslessStringConvertibleP"
+- !private "9HandyJSON11MappingPathV"
+- !private "9HandyJSON22MappingPropertyHandlerC"
+- !private "s6MirrorV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "9HandyJSON12PropertyInfoV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9HandyJSON17UTF8InitializableP"
+- !private "Sp"
+- !private "s22_AnyCollectionProtocolP"
+- !private "s14_ArrayProtocolP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "9HandyJSON18_BuiltInBridgeTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "9HandyJSON22_ExtendCustomModelTypeP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Pods/Target Support Files/HandyJSON/HandyJSON-umbrella.h"
+- "/Users/GuoYanjun/Desktop/TestDemo/WanAndroid_IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/HandyJSON.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8312d14146c21613f8635b0209eb56a4"
